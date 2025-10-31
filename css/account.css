@@ -1,0 +1,150 @@
+
+:root {
+  --card-bg: #0a0f14b3;
+}
+
+.account-main {
+  min-height: 60vh;
+  padding: clamp(24px, 4vw, 48px) 0;
+}
+
+.account-container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.profile-header {
+  display: grid;
+  grid-template-columns: 100px 1fr auto;
+  align-items: center;
+  gap: clamp(12px, 2vw, 24px);
+  background: var(--card-bg);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: clamp(16px, 2.5vw, 24px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  backdrop-filter: blur(6px);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--green-300);
+  background: rgba(255,255,255,0.06);
+}
+
+.profile-meta h2 {
+  margin: 0 0 6px;
+  color: var(--primary-orange-500);
+  letter-spacing: 0.6px;
+  font-size: clamp(20px, 2.2vw, 28px);
+}
+
+.profile-meta p {
+  margin: 0;
+  color: rgba(255,255,255,0.75);
+  font-weight: 300;
+}
+
+.signout-btn {
+  align-self: start;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: transparent;
+  color: var(--green-300);
+  cursor: pointer;
+}
+.signout-btn:hover {
+  border-color: var(--green-300);
+}
+
+.cards {
+  margin-top: clamp(20px, 3vw, 32px);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(16px, 2.5vw, 24px);
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: clamp(16px, 2.2vw, 24px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.card h3 {
+  margin: 0 0 12px;
+  color: var(--primary-dark-blue-500);
+  font-size: clamp(16px, 2vw, 20px);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.form-grid .full {
+  grid-column: 1 / -1;
+}
+
+.input-group label {
+  display: block;
+  color: rgba(255,255,255,0.8);
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  color: #fff;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 8px;
+}
+
+.actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.primary-btn, .outline-btn {
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: var(--green-300);
+  color: #000;
+  border: 1px solid var(--green-300);
+}
+
+.primary-btn:hover {
+  background: transparent;
+  color: var(--green-300);
+}
+
+.outline-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.18);
+  color: rgba(255,255,255,0.85);
+}
+
+.note {
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NIRVAN - Article</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/post.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="script.js" defer></script>
+  <script src="post.js" defer></script>
+  <script src="search.js" defer></script>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="nav-logo"><a href="index.html"><img src="Resources/Logo For Header Menu.png" /></a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <img src="Resources/Logo For Header Menu.png" />
+          <i class='bx bx-x'></i>
+        </div>
+        <ul class="links">
+          <li class="li">
+            <a href="programs.html" class="nav-link dropdown-link">
+              <span>Programs</span>
+              <i class='bx bxs-chevron-down arrow programs-arrow'></i>
+            </a>
+            <ul class="programs-sub-menu sub-menu">
+              <li><a href="programs.html#intro">Introduction</a></li>
+              <li><a href="programs.html#8-week">8-Week Plan</a></li>
+              <li><a href="programs.html#4-week">4-Week Plan</a></li>
+              <li><a href="programs.html#free-week">1-Week Free</a></li>
+            </ul>
+          </li>
+          <li class="li">
+            <a href="library.html" class="nav-link dropdown-link">
+              <span>Library</span>
+              <i class='bx bxs-chevron-down arrow library-arrow'></i>
+            </a>
+            <ul class="library-sub-menu sub-menu">
+              <li><a href="library.html#books-section">Books</a></li>
+              <li><a href="library.html#sound-library-section">Sound Library</a></li>
+              <li><a href="library.html#video-library-section">Video Library</a></li>
+            </ul>
+          </li>
+          <li class="li"><a href="blog.html" class="nav-link active">Blog</a></li>
+          <li class="li"><a href="about.html" class="nav-link">About</a></li>
+          <li class="li"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <!-- Mobile Footer -->
+        <div class="mobile-footer">
+          <div class="footer-logo">
+            <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN Logo">
+          </div>
+          
+          <div class="footer-links">
+            <div class="link-row">
+              <a href="about.html">About Us</a>
+              <a href="programs.html">Programs</a>
+            </div>
+            <div class="link-row">
+              <a href="library.html">Library</a>
+              <a href="blog.html">Blog</a>
+            </div>
+            <div class="link-row">
+              <a href="contact.html">Contact</a>
+              <a href="#privacy">Privacy</a>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+            <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+            <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+            <a href="#" aria-label="YouTube"><i class='bx bxl-youtube'></i></a>
+          </div>
+          
+          <p class="copyright">&copy; 2025 NIRVAN - Vedic Yoga. All rights reserved.</p>
+        </div>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" id="search-input" placeholder="Search..." autocomplete="off" />
+          <div class="search-dropdown" id="search-dropdown"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="post-navigation">
+    <div class="breadcrumb">
+      <a href="index.html" class="breadcrumb-link">Home</a>
+      <i class='bx bx-chevron-right'></i>
+      <a href="blog.html" class="breadcrumb-link">Blog</a>
+      <i class='bx bx-chevron-right'></i>
+      <span class="breadcrumb-current" id="breadcrumb-title">Article</span>
+    </div>
+  </div>
+
+  <main class="post-main">
+    <article id="post-article" class="post-article">
+      <!-- Content injected by post.js -->
+    </article>
+
+    <aside class="post-recommended">
+      <div class="post-side-panel">
+        <h3 class="recommended-title">Recommended Articles</h3>
+        <div id="recommended-grid" class="recommended-grid"></div>
+        <div class="side-divider"></div>
+        <div class="side-block">
+          <h4 class="side-title"><i class='bx bx-purchase-tag'></i> Topics</h4>
+          <div id="post-tags" class="post-tags"></div>
+        </div>
+        <div class="side-divider"></div>
+        <div class="side-block">
+          <h4 class="side-title"><i class='bx bx-share-alt'></i> Share</h4>
+          <div id="post-share" class="post-share"></div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="main-footer">
+    <!-- Footer Top (Newsletter) -->
+    <div class="footer-top">
+      <div class="footer-container">
+        <div class="newsletter">
+          <!-- Description with corner florals -->
+          <div class="newsletter-desc-wrap">
+            <div class="newsletter-desc">
+              Subscribe to our newsletter and get the benefits of our new offers, new materials, latest posted articles, videos and most inspiringly our daily Vedic Quotes to enrich your inner wisdom.
+            </div>
+            <span class="corner-decor corner-tl" aria-hidden="true"></span>
+            <span class="corner-decor corner-tr" aria-hidden="true"></span>
+            <span class="corner-decor corner-bl" aria-hidden="true"></span>
+            <span class="corner-decor corner-br" aria-hidden="true"></span>
+          </div>
+
+          <!-- Input Row: left text, email input, subscribe button -->
+          <div class="newsletter-row">
+            <div class="newsletter-left-text" aria-hidden="true">
+              <div class="line">SUBSCRIBE TO OUR</div>
+              <div class="line">NEWSLETTER</div>
+            </div>
+
+            <div class="newsletter-input-wrap">
+              <input type="email" class="newsletter-input" placeholder="Enter your email address..." aria-label="Email address">
+            </div>
+
+            <div class="newsletter-actions">
+              <button class="newsletter-btn" data-label="SUBSCRIBE" aria-label="Subscribe">
+                SUBSCRIBE
+              </button>
+            </div>
+          </div>
+
+          <!-- Centered heading below input -->
+          <h3 class="newsletter-heading" aria-live="polite">
+            <span class="peace">WE SEND YOU PEACE,</span>
+            <span class="not-spam"> NOT SPAM!</span>
+          </h3>
+        </div>
+      </div>
+  </div>
+  <!-- Footer Top (Newsletter) END -->
+      
+      
+
+      <!-- Main Footer Content -->
+      <div class="footer-main">
+        <div class="footer-container">
+          <div class="footer-grid">
+            <!-- Brand Column -->
+            <div class="footer-brand">
+              <div class="footer-logo">
+                <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN logo">
+              </div>
+              <p class="brand-description">AN ANCIENT PEACE TO THE MODERN WORLD</p>
+              <div class="footer-social">
+                <a href="#" class="social-link"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="social-link"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="social-link"><i class='bx bxl-youtube'></i></a>
+                <a href="#" class="social-link"><i class='bx bxl-linkedin'></i></a>
+              </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+              <h4 class="footer-heading">Quick Links</h4>
+              <ul class="link-list">
+                <li><a href="programs.html"><i class='bx bx-chevron-right'></i>Programs</a></li>
+                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Library</a></li>
+                <li><a href="blog.html"><i class='bx bx-chevron-right'></i>Blog</a></li>
+                <li><a href="about.html"><i class='bx bx-chevron-right'></i>About Us</a></li>
+                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Contact</a></li>
+              </ul>
+            </div>
+
+            <!-- Programs -->
+            <div class="footer-links">
+              <h4 class="footer-heading">Programs</h4>
+              <ul class="link-list">
+                <li><a href="programs.html#free-week"><i class='bx bx-chevron-right'></i>1-Week Free Trial</a></li>
+                <li><a href="programs.html#4-week"><i class='bx bx-chevron-right'></i>4-Week Reset</a></li>
+                <li><a href="programs.html#8-week"><i class='bx bx-chevron-right'></i>8-Week Transformation</a></li>
+                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Resource Library</a></li>
+                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Personal Mentoring</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+              <h4 class="footer-heading">Get in Touch</h4>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <i class='bx bx-map'></i>
+                  <span>Berlin, Germany</span>
+                </div>
+                <div class="contact-item">
+                  <i class='bx bx-envelope'></i>
+                  <a href="mailto:info@nirvanyoga.com">info@nirvanyoga.com</a>
+                </div>
+                <div class="contact-item">
+                  <i class='bx bx-time'></i>
+                  <span>Mon - Sat: 8AM - 6PM CET</span>
+                </div>
+              </div>
+              <a href="contact.html" class="footer-cta-btn">
+                <span>Talk to a Mentor</span>
+                <i class='bx bx-right-arrow-alt'></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="footer-container">
+          <div class="footer-bottom-content">
+            <div class="copyright">
+              <p>&copy; 2025 NIRVAN - Vedic Yoga. All rights reserved.</p>
+            </div>
+            <div class="footer-bottom-links">
+              <a href="privacy.html">Privacy Policy</a>
+              <a href="terms.html">Terms of Service</a>
+              <a href="impressum.html">Impressum</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>

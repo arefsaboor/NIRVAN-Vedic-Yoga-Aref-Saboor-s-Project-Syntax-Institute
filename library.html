@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIRVAN - Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/library.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="script.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="library.js" defer></script>
+</head>
+<body>
+
+<!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu' ></i>
+            <div class="nav-logo"><a href="index.html"><img src="Resources/Logo For Header Menu.png"></a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                        <img src="Resources/Logo For Header Menu.png">
+                        <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="li">
+                        <a href="programs.html" class="nav-link dropdown-link">
+                            <span>Programs</span>
+                            <i class='bx bxs-chevron-down arrow programs-arrow'></i>
+                        </a>
+                        <ul class="programs-sub-menu sub-menu">
+                            <li><a href="programs.html#intro">Introduction</a></li>
+                            <li><a href="programs.html#8-week">8-Week Plan</a></li>
+                            <li><a href="programs.html#4-week">4-Week Plan</a></li>
+                            <li><a href="programs.html#free-week">1-Week Free</a></li>
+                        </ul>
+                    </li>
+                    <li class="li">
+                        <a href="library.html" class="nav-link dropdown-link">
+                            <span>Library</span>
+                            <i class='bx bxs-chevron-down arrow library-arrow'></i>
+                        </a>
+                        <ul class="library-sub-menu sub-menu">
+                            <li><a href="#books-section">Books</a></li>
+                            <li><a href="#sound-library-section">Sound Library</a></li>
+                            <li><a href="#video-library-section">Video Library</a></li>
+                        </ul>
+                    </li>
+                    <li class="li"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="li"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="li"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile Footer -->
+                <div class="mobile-footer">
+                    <div class="footer-logo">
+                        <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN Logo">
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="link-row">
+                            <a href="about.html">About Us</a>
+                            <a href="programs.html">Programs</a>
+                        </div>
+                        <div class="link-row">
+                            <a href="library.html">Library</a>
+                            <a href="blog.html">Blog</a>
+                        </div>
+                        <div class="link-row">
+                            <a href="contact.html">Contact</a>
+                            <a href="#privacy">Privacy</a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" aria-label="YouTube"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                    
+                    <p class="copyright">&copy; 2025 NIRVAN - Vedic Yoga. All rights reserved.</p>
+                </div>
+            </div>
+
+<!-- Search Bar -->
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                    <input type="text" id="search-input" name="" value="" placeholder="Search..." autocomplete="off">
+                    <div class="search-dropdown" id="search-dropdown"></div>
+                </div>
+        </div>
+    </nav>
+
+<!-- Main container --> 
+    <main class="main-container">
+        <!-- Library Hero Section -->
+        <section class="library-hero">
+            <div class="library-hero-bg">
+                <img src="Images/Articles/2-Vedic_Philosophy.jpg" alt="Vedic Library" class="hero-bg-image">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="library-hero-content">
+                <h1 class="library-title">Vedic Library</h1>
+                <p class="library-subtitle">Explore Ancient Wisdom Through Books, Sounds & Videos</p>
+                
+                <!-- Advanced Search Bar -->
+                <div class="library-search-container">
+                    <div class="search-wrapper">
+                        <input type="text" id="library-search" placeholder="Search books, music, videos..." class="library-search-input">
+                        <select id="category-filter" class="category-select">
+                            <option value="all">All Categories</option>
+                            <option value="books">Books</option>
+                            <option value="sounds">Sound Library</option>
+                            <option value="videos">Video Library</option>
+                        </select>
+                        <button class="search-btn">
+                            <i class='bx bx-search'></i>
+                        </button>
+                    </div>
+                    <!-- Live Search Suggestions -->
+                    <div id="search-suggestions" class="search-suggestions"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Books Section -->
+        <section id="books-section" class="books-section">
+            <div class="section-header section-banner">
+                <div class="section-banner-inner">
+                    <h2>Sacred Books Collection</h2>
+                    <p>Immerse yourself in the profound wisdom of ancient Vedic texts and modern spiritual classics. Our carefully curated collection features authoritative translations of sacred scriptures, practical yoga guides, and transformative spiritual teachings from renowned masters. These books serve as gateways to deeper understanding of consciousness, meditation practices, and the timeless principles that guide the path to self-realization and inner peace.</p>
+                </div>
+            </div>
+            
+            <div class="books-grid" id="books-grid">
+                <!-- Book cards will be dynamically loaded here -->
+            </div>
+            
+            <div class="show-more-container">
+                <button id="show-more-books" class="show-more-btn" data-label="Show More Books">Show More Books</button>
+                <button id="show-less-books" class="show-more-btn" data-label="Show Less Books" style="display:none;">Show Less Books</button>
+            </div>
+        </section>
+
+        <!-- Sound Library Section -->
+        <section id="sound-library-section" class="sound-library-section">
+            <div class="section-header section-banner">
+                <div class="section-banner-inner">
+                    <h2>Meditation & Mantra Sounds</h2>
+                    <p>Experience the transformative power of sacred sound vibrations through our collection of authentic mantras, healing frequencies, and meditation music. These carefully selected audio tracks include traditional Sanskrit chants, Tibetan singing bowls, nature sounds for pranayama practice, and chakra balancing frequencies. Each sound serves as a powerful tool for deepening meditation, reducing stress, enhancing concentration, and connecting with the subtle energies that promote healing and spiritual awakening.</p>
+                </div>
+            </div>
+            
+            <div class="sounds-grid" id="sounds-grid">
+                <!-- Sound cards will be dynamically loaded here -->
+            </div>
+            
+            <div class="show-more-container">
+                <button id="show-more-sounds" class="show-more-btn" data-label="Show More Sounds">Show More Sounds</button>
+                <button id="show-less-sounds" class="show-more-btn" data-label="Show Less Sounds" style="display:none;">Show Less Sounds</button>
+            </div>
+        </section>
+
+        <!-- Video Library Section -->
+        <section id="video-library-section" class="video-library-section">
+            <div class="section-header section-banner">
+                <div class="section-banner-inner">
+                    <h2>Vedic Yoga Video Teachings</h2>
+                    <p>Deepen your understanding through comprehensive video teachings that bring ancient Vedic and yogic wisdom to life. Our video collection features expert explanations of core concepts including pranayama techniques, chakra systems, meditation methods, and philosophical principles. These visual guides provide step-by-step instructions for asana practice, breathing exercises, and spiritual disciplines, making complex teachings accessible and practical for modern practitioners seeking authentic guidance on the path of yoga and self-discovery.</p>
+                </div>
+            </div>
+            
+            <div class="videos-grid" id="videos-grid">
+                <!-- Video cards will be dynamically loaded here -->
+            </div>
+            
+            <div class="show-more-container">
+                <button id="show-more-videos" class="show-more-btn" data-label="Show More Videos">Show More Videos</button>
+                <button id="show-less-videos" class="show-more-btn" data-label="Show Less Videos" style="display:none;">Show Less Videos</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Book Details Modal -->
+    <div id="book-modal" class="book-modal">
+        <div class="book-modal-content">
+            <div class="book-modal-header">
+                <h2 id="modal-book-title">Book Title</h2>
+                <span class="book-modal-close">&times;</span>
+            </div>
+            <div class="book-modal-body">
+                <div class="book-modal-image">
+                    <img id="modal-book-image" src="" alt="Book Cover">
+                </div>
+                <div class="book-modal-details">
+                    <h3 id="modal-book-author">Author Name</h3>
+                    <div class="book-description">
+                        <h4>About This Book</h4>
+                        <p id="modal-book-description">Book description will appear here...</p>
+                    </div>
+                    <div class="book-modal-actions">
+                        <a id="modal-amazon-link" href="#" target="_blank" class="amazon-btn">
+                            <i class='bx bxl-amazon'></i>
+                            Buy on Amazon
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Media Player Modal (Sounds) -->
+    <div id="media-modal" class="media-modal" aria-hidden="true">
+        <div class="media-modal-content" role="dialog" aria-modal="true" aria-label="Media Player">
+            <div class="media-modal-header">
+                <h2 class="media-title">Now Playing</h2>
+                <span class="media-modal-close" aria-label="Close">&times;</span>
+            </div>
+            <div class="media-modal-body">
+                <div class="media-iframe-wrap">
+                    <iframe id="media-iframe" src="" title="YouTube player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+            <!-- Footer Top (Newsletter) -->
+            <div class="footer-top">
+                <div class="footer-container">
+                    <div class="newsletter">
+                        <!-- Description with corner florals -->
+                        <div class="newsletter-desc-wrap">
+                            <div class="newsletter-desc">
+                                Subscribe to our newsletter and get the benefits of our new offers, new materials, latest posted articles, videos and most inspiringly our daily Vedic Quotes to enrich your inner wisdom.
+                            </div>
+                            <span class="corner-decor corner-tl" aria-hidden="true"></span>
+                            <span class="corner-decor corner-tr" aria-hidden="true"></span>
+                            <span class="corner-decor corner-bl" aria-hidden="true"></span>
+                            <span class="corner-decor corner-br" aria-hidden="true"></span>
+                        </div>
+
+                        <!-- Input Row: left text, email input, subscribe button -->
+                        <div class="newsletter-row">
+                            <div class="newsletter-left-text" aria-hidden="true">
+                                <div class="line">SUBSCRIBE TO OUR</div>
+                                <div class="line">NEWSLETTER</div>
+                            </div>
+
+                            <div class="newsletter-input-wrap">
+                                <input type="email" class="newsletter-input" placeholder="Enter your email address..." aria-label="Email address">
+                            </div>
+
+                            <div class="newsletter-actions">
+                                <button class="newsletter-btn" data-label="SUBSCRIBE" aria-label="Subscribe">
+                                    SUBSCRIBE
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Centered heading below input -->
+                        <h3 class="newsletter-heading" aria-live="polite">
+                            <span class="peace">WE SEND YOU PEACE,</span>
+                            <span class="not-spam"> NOT SPAM!</span>
+                        </h3>
+                    <!-- Footer Top (Newsletter) END -->
+                    </div>
+                </div>
+            </div>
+            
+            
+
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-container">
+                    <div class="footer-grid">
+                        <!-- Brand Column -->
+                        <div class="footer-brand">
+                            <div class="footer-logo">
+                                <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN logo">
+                            </div>
+                            <p class="brand-description">AN ANCIENT PEACE TO THE MODERN WORLD</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class='bx bxl-facebook'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-twitter'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-youtube'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="footer-links">
+                            <h4 class="footer-heading">Quick Links</h4>
+                            <ul class="link-list">
+                                <li><a href="programs.html"><i class='bx bx-chevron-right'></i>Programs</a></li>
+                                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Library</a></li>
+                                <li><a href="blog.html"><i class='bx bx-chevron-right'></i>Blog</a></li>
+                                <li><a href="about.html"><i class='bx bx-chevron-right'></i>About Us</a></li>
+                                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Programs -->
+                        <div class="footer-links">
+                            <h4 class="footer-heading">Programs</h4>
+                            <ul class="link-list">
+                                <li><a href="programs.html#free-week"><i class='bx bx-chevron-right'></i>1-Week Free Trial</a></li>
+                                <li><a href="programs.html#4-week"><i class='bx bx-chevron-right'></i>4-Week Reset</a></li>
+                                <li><a href="programs.html#8-week"><i class='bx bx-chevron-right'></i>8-Week Transformation</a></li>
+                                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Resource Library</a></li>
+                                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Personal Mentoring</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact Info -->
+                        <div class="footer-contact">
+                            <h4 class="footer-heading">Get in Touch</h4>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class='bx bx-map'></i>
+                                    <span>Berlin, Germany</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class='bx bx-envelope'></i>
+                                    <a href="mailto:info@nirvanyoga.com">info@nirvanyoga.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <i class='bx bx-time'></i>
+                                    <span>Mon - Sat: 8AM - 6PM CET</span>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="footer-cta-btn">
+                                <span>Talk to a Mentor</span>
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-container">
+                    <div class="footer-bottom-content">
+                        <div class="copyright">
+                            <p>&copy; 2025 NIRVAN - Vedic Yoga. All rights reserved.</p>
+                        </div>
+                        <div class="footer-bottom-links">
+                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="terms.html">Terms of Service</a>
+                            <a href="impressum.html">Impressum</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+</body>
+</html>

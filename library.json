@@ -1,0 +1,401 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Bhagavad Gita",
+      "author": "Eknath Easwaran",
+      "image": "https://m.media-amazon.com/images/I/71nDBHiOzIL.jpg",
+      "amazonLink": "https://www.amazon.com/Bhagavad-Gita-Eknath-Easwaran/dp/1586380192",
+      "description": "A timeless guide for everyday life, this beautiful translation of the Bhagavad Gita makes this classic Hindu scripture accessible to modern readers. Easwaran's translation captures the essence of Krishna's teachings on dharma, devotion, and the path to self-realization. This profound dialogue between Prince Arjuna and Lord Krishna on the battlefield of Kurukshetra offers wisdom on living with purpose, overcoming doubt, and finding inner peace amidst life's challenges."
+    },
+    {
+      "id": 2,
+      "title": "Light on Yoga",
+      "author": "B.K.S. Iyengar",
+      "image": "https://m.media-amazon.com/images/I/51jVMyFlhzL._AC_UF894,1000_QL80_.jpg",
+      "amazonLink": "https://www.amazon.com/Light-Yoga-B-K-S-Iyengar/dp/0805210318",
+      "description": "Considered the bible of yoga by millions of practitioners worldwide, this comprehensive guide by the legendary B.K.S. Iyengar covers over 200 yoga postures and breathing exercises. With detailed instructions, benefits, and step-by-step photographs, this book serves as both a complete course for beginners and an invaluable reference for advanced students. Iyengar's systematic approach to yoga emphasizes precision, alignment, and the therapeutic benefits of asanas."
+    },
+    {
+      "id": 3,
+      "title": "The Yoga Sutras of Patanjali",
+      "author": "Swami Satchidananda",
+      "image": "https://m.media-amazon.com/images/I/61wBStxDLiL.jpg",
+      "amazonLink": "https://www.amazon.com/Yoga-Sutras-Patanjali-Satchidananda/dp/0932040381",
+      "description": "The foundational text of yoga philosophy, translated and commented upon by the beloved teacher Swami Satchidananda. This ancient text outlines the eight-limbed path of yoga, providing a practical guide to ethical living, physical practices, breath control, and meditation. Satchidananda's clear explanations make these profound teachings accessible, showing how yoga is not just physical exercise but a complete system for achieving peace, wisdom, and self-realization."
+    },
+    {
+      "id": 4,
+      "title": "Autobiography of a Yogi",
+      "author": "Paramahansa Yogananda",
+      "image": "https://m.media-amazon.com/images/I/91IH7oBpNmL._AC_UF894,1000_QL80_.jpg",
+      "amazonLink": "https://www.amazon.com/Autobiography-Yogi-Paramhansa-Yogananda/dp/8120725247",
+      "description": "One of the most influential spiritual books ever written, this autobiography chronicles Yogananda's life from his childhood in India to his mission in the West. The book reveals the science behind yoga and meditation, introduces readers to remarkable saints and sages, and demonstrates the reality of God-communion. Yogananda's personal experiences with divine consciousness and miraculous phenomena provide inspiration and proof of yoga's transformative power."
+    },
+    {
+      "id": 5,
+      "title": "The Upanishads",
+      "author": "Patrick Olivelle",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81yVku7i7fL._AC_UL600_SR600,600_.jpg",
+      "amazonLink": "https://www.amazon.com/Upanishads-Oxford-Worlds-Classics/dp/0199540365",
+      "description": "The philosophical foundation of Hinduism, the Upanishads contain the mystical and philosophical teachings that form the basis of Vedic thought. This scholarly translation by Patrick Olivelle presents twelve principal Upanishads with clarity and precision. These ancient texts explore the nature of reality, the relationship between the individual soul (Atman) and universal consciousness (Brahman), and the path to liberation from the cycle of birth and death."
+    },
+    {
+      "id": 6,
+      "title": "The Science of Enlightenment",
+      "author": "Shinzen Young",
+      "image": "https://m.media-amazon.com/images/I/71OhwSMfmCL._AC_UF1000,1000_QL80_.jpg",
+      "amazonLink": "https://www.amazon.com/Science-Enlightenment-Complete-Program-Meditation/dp/1591794609",
+      "description": "A practical and systematic approach to mindfulness and meditation that bridges Eastern wisdom with Western psychology. Shinzen Young presents a clear methodology for developing concentration, mindfulness, and equanimity. His scientific approach to ancient practices offers techniques for dealing with difficult emotions, developing insight, and achieving states of profound peace and clarity."
+    },
+    {
+      "id": 7,
+      "title": "The Heart of Vedantic Meditation",
+      "author": "Swami Bhoomananda Tirtha",
+      "image": "https://cdn.exoticindia.com/images/products/thumbnails/t400x300/books-2019-023/uav357.jpg",
+      "amazonLink": "https://www.amazon.com/Heart-Vedantic-Meditation-Swami-Bhoomananda/dp/8188342203",
+      "description": "A profound exploration of Vedantic meditation that reveals the inner science of self-realization. Swami Bhoomananda Tirtha explains the principles of Advaita Vedanta in practical terms, showing how meditation can lead to direct knowledge of our true nature. This book provides guidance on overcoming mental obstacles, developing witness consciousness, and experiencing the unity of existence."
+    },
+    {
+      "id": 8,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "image": "https://m.media-amazon.com/images/I/61Ij8nLooNL._AC_UF894,1000_QL80_.jpg",
+      "amazonLink": "https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808",
+      "description": "A transformative guide to spiritual awakening that shows how living in the present moment is the key to enlightenment. Tolle's teachings draw from various wisdom traditions including Vedantic philosophy, offering practical techniques for transcending the ego-mind and accessing deeper states of consciousness. This book has helped millions discover inner peace and spiritual fulfillment."
+    },
+    {
+      "id": 9,
+      "title": "Raja Yoga",
+      "author": "Swami Vivekananda",
+      "image": "https://m.media-amazon.com/images/I/61zYxGyBCgL._AC_UF894,1000_QL80_.jpg",
+      "amazonLink": "https://www.amazon.com/Raja-Yoga-Swami-Vivekananda/dp/1596059893",
+      "description": "Swami Vivekananda's brilliant exposition of Patanjali's Yoga Sutras, presenting the science of raja yoga in clear, practical terms. This book explains the psychology of meditation, the development of psychic powers, and the ultimate goal of samadhi. Vivekananda's rational approach and profound insights make ancient yogic wisdom accessible to modern minds."
+    },
+    {
+      "id": 10,
+      "title": "The Vedic Way of Knowing God",
+      "author": "David Frawley",
+      "image": "https://assets.lulu.com/cover_thumbs/1/z/1z8pj6pj-ebook-shortedge-384.jpg",
+      "amazonLink": "https://www.amazon.com/Vedic-Way-Knowing-God-Pancharatra/dp/8120817905",
+      "description": "An comprehensive guide to Vedic spirituality and the paths to divine realization according to ancient Indian wisdom. David Frawley explores the Vedic understanding of God, consciousness, and the cosmos, presenting practices for meditation, devotion, and self-inquiry. This book reveals how Vedic knowledge can transform our understanding of life and lead to direct experience of the divine."
+    },
+    {
+      "id": 11,
+      "title": "Pranayama: The Breath of Yoga",
+      "author": "Gregor Maehle",
+      "image": "https://m.media-amazon.com/images/I/71p9hsRBexL._UF1000,1000_QL80_.jpg",
+      "amazonLink": "https://www.amazon.com/Pranayama-Breath-Yoga-Gregor-Maehle/dp/1577317491",
+      "description": "A comprehensive guide to the practice of pranayama (breathing techniques) that reveals the profound effects of breath control on body, mind, and spirit. Maehle provides detailed instructions for various breathing practices, their physiological effects, and their role in spiritual development. This book bridges ancient yogic wisdom with modern understanding of respiratory science."
+    },
+    {
+      "id": 12,
+      "title": "The Wisdom of Vedanta",
+      "author": "Jagadish Chandra Chatterji",
+      "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1391135636i/1073808.jpg",
+      "amazonLink": "https://www.amazon.de/-/en/Wisdom-Vedas-Theosophical-Heritage-Classics/dp/0835606848",
+      "description": "An illuminating exploration of Vedantic philosophy that explains the fundamental principles of Advaita (non-dualism). Chatterji presents complex philosophical concepts in accessible language, showing how Vedantic wisdom can guide us to understand our true nature and achieve liberation from suffering. This book serves as both an introduction to Vedanta and a profound spiritual guide."
+    },
+    {
+      "id": 13,
+      "title": "Meditation and Mantras",
+      "author": "Swami Vishnu Devananda",
+      "image": "https://m.media-amazon.com/images/I/61X4Ra8eWiL._SY466_.jpg",
+      "amazonLink": "https://www.amazon.de/-/en/Meditation-Mantras-Swami-Vishnudevananda/dp/8119454855",
+      "description": "A practical guide to meditation and the use of mantras for spiritual development. Swami Vishnu Devananda explains various meditation techniques, the science of sound vibration, and the power of sacred mantras. This book provides step-by-step instructions for establishing a meditation practice and using sound as a tool for transformation and enlightenment."
+    },
+    {
+      "id": 14,
+      "title": "The Serpent Power",
+      "author": "Arthur Avalon",
+      "image": "https://m.media-amazon.com/images/I/51zDCIr+XuL._SY466_.jpg",
+      "amazonLink": "https://www.amazon.de/Serpent-Power-Lost-Library/dp/1906621233",
+      "description": "A scholarly exploration of Kundalini yoga and the chakra system based on ancient Tantric texts. Arthur Avalon (Sir John Woodroffe) presents the philosophy and practices of Kundalini awakening, explaining the subtle anatomy of the human energy system. This classical work provides deep insights into the mystical aspects of yoga and the transformation of consciousness through spiritual practice."
+    },
+    {
+      "id": 15,
+      "title": "The Essence of the Bhagavad Gita",
+      "author": "Paramahansa Yogananda",
+      "image": "https://m.media-amazon.com/images/I/91vStIVF47L._UF1000,1000_QL80_.jpg",
+      "amazonLink": "https://www.amazon.de/Essence-Bhagavad-Gita-Paramhansa-Remembered-ebook/dp/B00DVT6330",
+      "description": "Yogananda's profound commentary on the Bhagavad Gita reveals the psychological and spiritual depths of Krishna's teachings. This interpretation explains how the battlefield represents the inner struggle between the forces of light and darkness within each person. Yogananda shows how the Gita's wisdom can be applied to achieve victory over negative tendencies and realize God-consciousness."
+    },
+    {
+      "id": 16,
+      "title": "Yoga Body",
+      "author": "Mark Singleton",
+      "image": "https://m.media-amazon.com/images/I/61vKsXB5iGL._SY466_.jpg",
+      "amazonLink": "https://www.amazon.de/Yoga-Body-Origins-Posture-Practice/dp/0195395344",
+      "description": "A groundbreaking study that examines the origins of modern postural yoga and its relationship to ancient yogic traditions. Singleton's scholarly research reveals how contemporary yoga practice evolved from various influences including traditional Indian yoga, British physical culture, and modern gymnastics. This book provides valuable insights into the historical development of yoga as we know it today."
+    }
+  ],
+
+
+
+
+  
+  "sounds": [
+    {
+      "id": 1,
+      "title": "OM Chanting @417 Hz | Removes All Negative Blocks",
+      "duration": "3:00:28",
+      "youtubeId": "https://www.youtube.com/watch?v=8sYK7lm3UKg&list=RD8sYK7lm3UKg&start_radio=1&t=180s",
+      "category": "mantras"
+    },
+    {
+      "id": 2,
+      "title": "Calming Vedic Music for Meditation & Relaxation",
+      "duration": "1:08:20",
+      "youtubeId": "https://www.youtube.com/watch?v=QXNktXYDVaA&list=RDQXNktXYDVaA&start_radio=1",
+      "category": "music"
+    },
+    {
+      "id": 3,
+      "title": "Healing Frequency Meditation (1111 Hz) - Handpan",
+      "duration": "1:03:49",
+      "youtubeId": "https://www.youtube.com/watch?v=j_3C0z96GE0&list=RDj_3C0z96GE0&start_radio=1",
+      "category": "music"
+    },
+    {
+      "id": 4,
+      "title": "Powerful GAYATRI MANTRA CHANTING 108 Times",
+      "duration": "56:40",
+      "youtubeId": "https://www.youtube.com/watch?v=fJEKwjoXpdQ&list=RDfJEKwjoXpdQ&start_radio=1",
+      "category": "mantras"
+    },
+    {
+      "id": 5,
+      "title": "Kalyani's Enchanting Raga: Soothing Indian Ambient Melodies",
+      "duration": "35:00",
+      "youtubeId": "https://www.youtube.com/watch?v=7BdypCJdIBk&list=RD7BdypCJdIBk&start_radio=1&t=2413s",
+      "category": "music"
+    },
+    {
+      "id": 6,
+      "title": "Shiva Dhyana - Ancient Mantra for Inner Peace",
+      "duration": "3:03:00",
+  "youtubeId": "https://www.youtube.com/watch?v=q5G0VQ9_S_Y&list=RDq5G0VQ9_S_Y&start_radio=1&t=3895s",
+      "category": "mantras"
+    },
+    {
+      "id": 7,
+      "title": "Original Tanpura",
+      "duration": "1:00:37",
+      "youtubeId": "https://www.youtube.com/watch?v=2g7ZUkaeqv0&list=RD2g7ZUkaeqv0&start_radio=1&t=810s",
+      "category": "music"
+    },
+    {
+      "id": 8,
+      "title": "Timeless Ragas",
+      "duration": "1:34:51",
+      "youtubeId": "https://www.youtube.com/watch?v=KokDhhUHfa8&list=RD7BdypCJdIBk&index=6",
+      "category": "music"
+    },
+    {
+      "id": 9,
+      "title": "Indian Tabla + Hang Drum Music || Positive Energy Beats",
+      "duration": "1:11:10",
+      "youtubeId": "https://www.youtube.com/watch?v=-qIzvMCU8_o&list=RD-qIzvMCU8_o&start_radio=1",
+      "category": "music"
+    },
+    {
+      "id": 10,
+      "title": "Hang Drum + Tabla + Flute Music | Mystical Yoga Music",
+      "duration": "1:11:11",
+      "youtubeId": "https://www.youtube.com/watch?v=DcCWB9sX-SM&list=RDDcCWB9sX-SM&start_radio=1",
+      "category": "music"
+    },
+    {
+      "id": 11,
+      "title": "QUIET GRACE | Deep Meditation Music for Spiritual Clarity & Balance (444Hz)",
+      "duration": "1:00:00",
+      "youtubeId": "https://www.youtube.com/watch?v=YW5m4loqqm0&list=RDYW5m4loqqm0&start_radio=1",
+      "category": "music"
+    },
+    {
+      "id": 12,
+      "title": "INNERSELF | Deep Meditation Music For Inner Journey | 432Hz",
+      "duration": "1:00:00",
+      "youtubeId": "https://www.youtube.com/watch?v=7KrJUqoa6LE&list=RD7KrJUqoa6LE&start_radio=1",
+      "category": "music"
+    },
+    {
+      "id": 13,
+      "title": "Eliminates All Negative Energy, Tibetan Healing Flute",
+      "duration": "3:58:30",
+      "youtubeId": "https://www.youtube.com/watch?v=ys_fN3uy7bQ&list=RDys_fN3uy7bQ&start_radio=1",
+      "category": "music"
+    },
+    {
+      "id": 14,
+      "title": "Mossy Cabin - Deep Ethereal Ambient Music",
+      "duration": "3:15:02",
+      "youtubeId": "https://www.youtube.com/watch?v=Ubp-QKalinU&list=RDys_fN3uy7bQ&index=7",
+      "category": "music"
+    },
+    {
+      "id": 15,
+      "title": "TAO – Japanese Ambient Music on the Path of the Samurai",
+      "duration": "2:16:43",
+      "youtubeId": "https://www.youtube.com/watch?v=S-h8z0zgX_U&list=RDys_fN3uy7bQ&index=8",
+      "category": "music"
+    },
+    {
+      "id": 16,
+      "title": "Tranquility - Deep Healing Relaxing Music",
+      "duration": "1:00:00",
+      "youtubeId": "https://www.youtube.com/watch?v=DRFHklnN-SM&list=RDDRFHklnN-SM&start_radio=1",
+      "category": "instruments"
+    }
+  ],
+
+
+
+
+  "videos": [
+    {
+      "id": 1,
+      "title": "Understanding the Vedic Mind - Ancient Wisdom for Modern Life",
+      "description": "Explore the profound teachings of Vedic philosophy and how they apply to contemporary living and consciousness.",
+      "thumbnail": "Images/Articles/5-The_Vedic_Mind.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "philosophy",
+      "instructor": "Dr. Rajesh Sharma"
+    },
+    {
+      "id": 2,
+      "title": "Pranayama Techniques - Master the Art of Breathing",
+      "description": "Learn essential breathing techniques that form the foundation of yoga practice and spiritual development.",
+      "thumbnail": "Images/Articles/4-Pranayama.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "pranayama",
+      "instructor": "Swami Pranava"
+    },
+    {
+      "id": 3,
+      "title": "Meditation for Beginners - Journey Within",
+      "description": "A comprehensive guide to starting your meditation practice with simple yet powerful techniques.",
+      "thumbnail": "Images/Articles/2-Vedic_Philosophy.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "meditation",
+      "instructor": "Acharya Meditation"
+    },
+    {
+      "id": 4,
+      "title": "The Science of Chakras - Energy Centers Explained",
+      "description": "Discover the seven main chakras, their functions, and how to balance them for optimal well-being.",
+      "thumbnail": "Images/Articles/10-The_7_Chakras.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "chakras",
+      "instructor": "Master Chakra"
+    },
+    {
+      "id": 5,
+      "title": "Yoga Asanas for Daily Practice - Essential Poses",
+      "description": "Master fundamental yoga poses that can be practiced daily for physical and mental health.",
+      "thumbnail": "Images/Articles/3-The_Asanas.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "asanas",
+      "instructor": "Yogi Asana"
+    },
+    {
+      "id": 6,
+      "title": "Vedantic Philosophy - The Nature of Reality",
+      "description": "Delve into Advaita Vedanta and understand the non-dual nature of existence and consciousness.",
+      "thumbnail": "Images/Articles/2-Vedic_Philosophy.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "philosophy",
+      "instructor": "Swami Advaita"
+    },
+    {
+      "id": 7,
+      "title": "Mantra Chanting - Power of Sacred Sound",
+      "description": "Learn the significance of mantras and how sacred sounds can transform consciousness.",
+      "thumbnail": "Images/Articles/12-The_Power_Of_Mantras.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "mantras",
+      "instructor": "Pandit Mantra"
+    },
+    {
+      "id": 8,
+      "title": "Ayurvedic Lifestyle - Living in Harmony",
+      "description": "Discover Ayurvedic principles for maintaining physical, mental, and spiritual health.",
+      "thumbnail": "Images/Articles/6-Ayurveda.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "ayurveda",
+      "instructor": "Dr. Ayurveda"
+    },
+    {
+      "id": 9,
+      "title": "Karma Yoga - The Path of Selfless Action",
+      "description": "Understand how to practice yoga through dedicated action without attachment to results.",
+      "thumbnail": "Images/Articles/1-Vedic_Yoga.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "philosophy",
+      "instructor": "Karma Yogi"
+    },
+    {
+      "id": 10,
+      "title": "Bhakti Yoga - The Path of Love and Devotion",
+      "description": "Explore the devotional path that leads to divine union through love and surrender.",
+      "thumbnail": "Images/Articles/7-The_Vedic_Life.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "philosophy",
+      "instructor": "Bhakta Devotion"
+    },
+    {
+      "id": 11,
+      "title": "Advanced Meditation Techniques - Deeper Practice",
+      "description": "Take your meditation to the next level with advanced techniques for experienced practitioners.",
+      "thumbnail": "Images/Articles/8-Integration.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "meditation",
+      "instructor": "Master Meditation"
+    },
+    {
+      "id": 12,
+      "title": "Yoga Philosophy - Eight Limbs of Patanjali",
+      "description": "Study Patanjali's eight-limbed path (Ashtanga) for complete yoga practice and self-realization.",
+      "thumbnail": "Images/Articles/1-Vedic_Yoga.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "philosophy",
+      "instructor": "Sage Patanjali"
+    },
+    {
+      "id": 13,
+      "title": "Kundalini Awakening - Spiritual Energy Rising",
+      "description": "Understand the concept of Kundalini and safe practices for spiritual energy activation.",
+      "thumbnail": "Images/Articles/11-The_Pineal_Gland.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "kundalini",
+      "instructor": "Kundalini Master"
+    },
+    {
+      "id": 14,
+      "title": "Vedic Astrology - Cosmic Influences on Life",
+      "description": "Introduction to Jyotish (Vedic astrology) and understanding planetary influences on consciousness.",
+      "thumbnail": "Images/Articles/7-The_Vedic_Life.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "astrology",
+      "instructor": "Jyotish Guru"
+    },
+    {
+      "id": 15,
+      "title": "Yoga Nidra - Conscious Sleep Meditation",
+      "description": "Experience the transformative practice of yogic sleep for deep relaxation and healing.",
+      "thumbnail": "Images/Articles/5-The_Vedic_Mind.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "meditation",
+      "instructor": "Nidra Teacher"
+    },
+    {
+      "id": 16,
+      "title": "Sanskrit and Sacred Texts - Language of the Divine",
+      "description": "Discover the significance of Sanskrit and learn to appreciate ancient Vedic literature.",
+      "thumbnail": "Images/Articles/9-The_Meaning_Of_Om.jpg",
+      "youtubeId": "dQw4w9WgXcQ",
+      "category": "philosophy",
+      "instructor": "Sanskrit Scholar"
+    }
+  ]
+}

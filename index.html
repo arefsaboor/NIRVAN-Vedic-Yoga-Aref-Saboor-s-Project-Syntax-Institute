@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIRVAN - Vedic Yoga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="script.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="modal.js" defer></script>
+
+</head>
+
+<body>
+
+    <main class="main-container">
+
+<!-- Navbar -->
+        <header class="header">
+            <nav>
+                <div class="navbar">
+                    <i class='bx bx-menu'></i>
+                    <div class="nav-logo"><a href="index.html"><img src="Resources/Logo For Header Menu.svg"></a></div>
+                    <div class="nav-links">
+                        <div class="sidebar-logo">
+                            <img src="Resources/Logo For Header Menu.svg">
+                            <i class='bx bx-x'></i>
+                        </div>
+                        <ul class="links">
+                            <li class="li">
+                                <a href="programs.html" class="nav-link dropdown-link">
+                                    <span>Programs</span>
+                                    <i class='bx bxs-chevron-down arrow programs-arrow'></i>
+                                </a>
+                                <ul class="programs-sub-menu sub-menu">
+                                    <li><a href="programs.html#intro">Introduction</a></li>
+                                    <li><a href="programs.html#8-week">8-Week Plan</a></li>
+                                    <li><a href="programs.html#4-week">4-Week Plan</a></li>
+                                    <li><a href="programs.html#free-week">1-Week Free</a></li>
+                                </ul>
+                            </li>
+                            <li class="li">
+                                <a href="library.html" class="nav-link dropdown-link">
+                                    <span>Library</span>
+                                    <i class='bx bxs-chevron-down arrow library-arrow'></i>
+                                </a>
+                                <ul class="library-sub-menu sub-menu">
+                                    <li><a href="library.html#books-section">Books</a></li>
+                                    <li><a href="library.html#sound-library-section">Sound Library</a></li>
+                                    <li><a href="library.html#video-library-section">Video Library</a></li>
+                                </ul>
+                            </li>
+                            <li class="li"><a href="blog.html" class="nav-link">Blog</a></li>
+                            <li class="li"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="li"><a href="contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+
+                        <!-- Mobile Footer -->
+                        <div class="mobile-footer">
+                            <div class="footer-logo">
+                                <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN Logo">
+                            </div>
+
+                            <div class="footer-links">
+                                <div class="link-row">
+                                    <a href="about.html">About Us</a>
+                                    <a href="programs.html">Programs</a>
+                                </div>
+                                <div class="link-row">
+                                    <a href="library.html">Library</a>
+                                    <a href="blog.html">Blog</a>
+                                </div>
+                                <div class="link-row">
+                                    <a href="contact.html">Contact</a>
+                                    <a href="#privacy">Privacy</a>
+                                </div>
+                            </div>
+                        </div> <!-- /.mobile-footer -->
+                    </div> <!-- /.nav-links -->
+                    <!-- Search Bar -->
+                    <div class="search-box">
+                        <i class='bx bx-search'></i>
+                        <div class="input-box">
+                            <input type="text" id="search-input" name="" value="" placeholder="Search..."
+                                autocomplete="off">
+                            <div class="search-dropdown" id="search-dropdown"></div>
+                        </div>
+                    </div>
+                </div> <!-- /.navbar -->
+            </nav>
+        </header>
+
+        <!-- Main container of all elements + sections -->
+        <section class="hero-section">
+            <div class="hero-contents">
+                        
+                   
+                        
+                <div class="mandala-lotus-logo">
+                    <div class="mandala-lotus">
+                        <img src="Resources/Mandala a.svg" class="mandala-big">
+                        <img src="Resources/Mandala a.svg" class="mandala-middle">
+                        <img src="Images/LotusPNG.png" class="lotus-img">
+                    </div>
+
+
+                    <div class="logo-middle-title-hero-btn">
+
+                        <!-- Logo Hero -->
+
+                        <div class="logo-hero">
+                            <img src="Resources/Logo For Header Menu.svg" class="logo">
+                        </div>
+
+
+                        <!-- Middle Title -->
+
+                        <div class="middle-title">
+                            <div class="middle-title-content">
+                                <div class="text-container">
+                                    <div class="sub-title1">VEDIC YOGA</div>
+                                    <div class="om-symbol"><img src="Resources/om.svg"></div>
+                                    <div class="heading">
+                                        <h1>AN ANCIENT PEACE TO THE MODERN WORLD</h1>
+                                    </div>
+                                    <div class="om-symbol"><img src="Resources/om.svg"></div>
+                                    <div class="sub-title2">VEDIC LIFE</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hero Buttons -->
+
+                        <div class="hero-buttons">
+                            <button id="openSignin" class="primary-btn">Sign In</button>
+                            <button id="openSignup" class="secondary-btn">Start New Journey</button>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </section> <!-- Hero Section | END -->
+
+
+<!-- Info Section -->
+
+        <section class="info-section">
+            <div class="info-heading">
+                <h1>We Share<span> Wisdom, </span>Not <span>Scam</span>!</h1>
+            </div>
+            <!-- Info Section Carousel -->
+            <div class="carousel-container">
+                <div class="image-container">
+                    <div class="prev-btn">
+                        <i class='bx bx-chevron-left'></i>
+                    </div>
+
+                    <!-- Slide #1 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/1-Vedic_Yoga.jpg" alt="Vedic-Yoga">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">Vedic Yoga</h1>
+                            <h2 class="carousel-subtitle">Introduction to Vedic Wisdom</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #2 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/2-Vedic_Philosophy.jpg" alt="Vedic-Philosophy">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">Vedic Philosophy</h1>
+                            <h2 class="carousel-subtitle">Vedic Philosophy and Path of Yoga</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #3 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/3-The_Asanas.jpg" alt="The-Asanas">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">The Asanas</h1>
+                            <h2 class="carousel-subtitle">Yoga Postures and Movements</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #4 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/4-Pranayama.jpg" alt="Pranayama">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">Pranayama</h1>
+                            <h2 class="carousel-subtitle">Mastering the Breath</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #5 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/5-The_Vedic_Mind.jpg" alt="The-Vedic-Mind">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">The Vedic Mind</h1>
+                            <h2 class="carousel-subtitle">Meditation and Mindfulness</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #6 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/6-Ayurveda.jpg" alt="Ayurveda">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">Ayurveda</h1>
+                            <h2 class="carousel-subtitle">Ayurveda and Vedic Yoga</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #7 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/7-The_Vedic_Life.jpg" alt="The_Vedic_Life">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">The Vedic Life</h1>
+                            <h2 class="carousel-subtitle">The Vedic Rituals and Lifestyle</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #8 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/8-Integration.jpg" alt="Integration">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">Integration</h1>
+                            <h2 class="carousel-subtitle">Integrating Vedic Yoga into Daily Life</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #9 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/9-The_Meaning_Of_Om.jpg" alt="On-Meaning-of-Om">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">On Meaning of Om</h1>
+                            <h2 class="carousel-subtitle">The Sound of The Universe</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #10 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/10-The_7_Chakras.jpg" alt="The-7-Chakras">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">The 7 Chakras</h1>
+                            <h2 class="carousel-subtitle">Energy Centers within the Body</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #11 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/11-The_Pineal_Gland.jpg" alt="The-Pineal-Gland">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">The Pineal Gland</h1>
+                            <h2 class="carousel-subtitle">The Myths Behind The Third Eye</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+                    <!-- Slide #12 -->
+
+                    <div class="carousel">
+                        <img src="Images/Articles/12-The_Power_Of_Mantras.jpg" alt="The-Power-of-Mantras">
+                        <div class="carousel-overlay">
+                            <h1 class="carousel-title">The Power of Mantras</h1>
+                            <h2 class="carousel-subtitle">How Brain Reacts on Mantras</h2>
+                            <div class="author-content">
+                                <div class="author-penIcon">
+                                    <i class='bx bxs-pencil'></i>
+                                    <h2 class="author">Aref Saboor</h2>
+                                </div>
+                                <div class="date-clock">
+                                    <i class='bx bx-time-five'></i>
+                                    <h2 class="date">15 October 2025</h2>
+                                </div>
+                            </div>
+                            <a href="#" class="read-article-btn">Read Article</a>
+                        </div>
+                    </div>
+
+
+                    <div class="next-btn">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="info-subheading">
+                <h1> <span> Enrich</span> your mind with a meditative reading with <span> No-AI </span> articles!</h1>
+            </div>
+
+        <!-- Info Quote Section (moved inside info-section) -->
+        <section class="info-quote-section">
+            <div class="info-quote-title">
+                <h2 class="info-quote-heading">The Awakening Words</h2>
+            </div>
+            <div class="quote-card">
+                <i class='bx bxs-quote-alt-left quote-icon quote-icon-top' aria-hidden="true"></i>
+                <p class="quote-text">
+                    <strong>Yoga is not a religion!</strong>
+                    <span>That is why people from all religions can practice it. It is the most ancient philosophy and science of well-being known to the world.</span>
+                </p>
+
+                <div class="quote-author">~ Aref Saboor</div>
+                <i class='bx bxs-quote-alt-right quote-icon quote-icon-bottom' aria-hidden="true"></i>
+            </div>
+            <div class="info-quote-actions">
+                <button class="quote-refresh-btn" type="button" data-label="NEW QUOTE">Generate New Words</button>
+            </div>
+        </section>
+
+        </section> <!-- Info Section | END -->
+
+<!-- Programs Section-->
+
+        <section class="programs-section">
+            <div class="programs-contents">
+                <div class="top-title">
+                    <div class="top-title-content">
+                        <div class="text-container">
+                            <div class="heading">OUR PROGRAMS</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="programs-grid">
+                    <!-- 1-Week Free Trial -->
+                    <article class="program-card program-free">
+                        <span class="program-badge">FREE</span>
+                        <div class="program-thumb">
+                            <img src="Images/Programs/Programs-1.jpg" alt="Gentle yoga practice for the 1-week free trial">
+                        </div>
+                        <div class="program-body">
+                            <h3 class="program-title">1-Week Free Trial</h3>
+                            <div class="program-meta">
+                                <span><i class='bx bx-time-five'></i> 7 Days</span>
+                                <span><i class='bx bx-leaf'></i> Beginner Friendly</span>
+                            </div>
+                            <p class="program-desc">
+                                A gentle introduction to Vedic Yoga: breath, awareness, and posture. Taste the discipline—no pressure, only presence.
+                            </p>
+                            <ul class="program-features">
+                                <li><i class='bx bx-check-circle'></i>Daily 15-20 min flows</li>
+                                <li><i class='bx bx-check-circle'></i>Meditation Primer</li>
+                                <li><i class='bx bx-check-circle'></i>Guided Breathwork</li>
+                                <li><i class='bx bx-check-circle'></i>Foundations of Om</li>
+                            </ul>
+                            <div class="program-actions">
+                                <a class="program-btn" href="programs.html#free-week">Start Free Week</a>
+                                <a class="program-btn secondary" href="programs.html#intro">Learn More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 4-Week Plan -->
+                    <article class="program-card program-4w">
+                        <span class="program-badge">4-Week Plan</span>
+                        <div class="program-thumb">
+                            <img src="Images/Programs/Programs-4.jpg" alt="Focused yoga reset for 4-week program">
+                        </div>
+                        <div class="program-body">
+                            <h3 class="program-title">4-Week Plan</h3>
+                            <div class="program-meta">
+                                <span><i class='bx bx-time-five'></i> 28 Days</span>
+                                <span><i class='bx bx-heart'></i> Balance & Energy</span>
+                            </div>
+                            <p class="program-desc">
+                                Re-align habits and rhythm with classical practice of asanas, pranayama, and restorative routines for calm clarity.
+                            </p>
+                            <ul class="program-features">
+                                <li><i class='bx bx-check-circle'></i>Weekly Progressions</li>
+                                <li><i class='bx bx-check-circle'></i>Deep Sleep Ritual</li>
+                                <li><i class='bx bx-check-circle'></i>Mindful Mobility</li>
+                                <li><i class='bx bx-check-circle'></i>Diet & Routine Tips</li>
+                            </ul>
+                            <div class="program-actions">
+                                <a class="program-btn" href="programs.html#4-week">Explore Plan</a>
+                                <a class="program-btn secondary" href="programs.html#intro">Learn More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 8-Week Transformation -->
+                    <article class="program-card program-8w">
+                        <div class="program-thumb">
+                            <img src="Images/Programs/Programs-8.jpg" alt="Deep practice for the 8-week transformation program">
+                        </div>
+                        <div class="program-body">
+                            <h3 class="program-title">8-Week Transformation</h3>
+                            <div class="program-meta">
+                                <span><i class='bx bx-time-five'></i> 56 Days</span>
+                                <span><i class='bx bx-sun'></i> Strength & Stillness</span>
+                            </div>
+                            <p class="program-desc">
+                                A progressive journey into Vedic Yoga: stability, breath mastery, and a meditative mind—built with consistency.
+                            </p>
+                            <ul class="program-features">
+                                <li><i class='bx bx-check-circle'></i>Progressive Asana</li>
+                                <li><i class='bx bx-check-circle'></i>Advanced Pranayama</li>
+                                <li><i class='bx bx-check-circle'></i>Mantra Resonance</li>
+                                <li><i class='bx bx-check-circle'></i>Lifestyle Integration</li>
+                            </ul>
+                            <div class="program-actions">
+                                <a class="program-btn" href="programs.html#8-week">Explore Plan</a>
+                                <a class="program-btn secondary" href="programs.html#intro">Learn More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section> <!-- Programs Section | END -->
+
+<!-- Mentors Section-->
+
+        <section class="mentors-section">
+            <div class="mentors-contents">
+                <div class="top-title">
+                    <div class="top-title-content">
+                        <div class="text-container">
+                            <div class="heading">OUR MENTORS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mentors-container">
+                    <div class="mentor-cards-wrapper">
+                        <div class="mentor-cards">
+                            <div class="mentor-1">
+                                <img src="Images/Mentors/Sadhguru.jpg" class="mentor">
+                                <img src="Resources/MandalaPNG.png" class="mandala-name">
+
+                                <div class="name-content">
+                                    <img src="Resources/NameBG.png" class="name-bg">
+                                    <h1 class="mentor-name">Sadhguru</h1>
+                                </div>
+
+                                <div class="mentor-text-box">
+                                    <h3>A Vedic Indian Guru</h3>
+                                    <hr>
+                                    <h3>Writer And Philosopher</h3>
+                                    <hr>
+                                    <h3>Founder of Isha Foundation</h3>
+                                    <hr>
+                                    <h3>New York Times Bestseller</h3>
+                                    <hr>
+                                    <h3>Padma Vibhushan Award</h3>
+                                    <hr>
+                                    <h3>Inner Engineering</h3>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mentor-cards">
+                            <div class="mentor-1">
+                                <img src="Images/Mentors/Shi_Heng_Yi.png" class="mentor">
+                                <img src="Resources/MandalaPNG.png" class="mandala-name">
+
+                                <div class="name-content">
+                                    <img src="Resources/NameBG.png" class="name-bg">
+                                    <h1 class="mentor-name">Shi Heng Yi</h1>
+                                </div>
+
+                                <div class="mentor-text-box">
+                                    <h3>A Buddhist Monk</h3>
+                                    <hr>
+                                    <h3>Shaolin Temple Europe</h3>
+                                    <hr>
+                                    <h3>Buddhist Community DE</h3>
+                                    <hr>
+                                    <h3>Shaolin Kung Fu master</h3>
+                                    <hr>
+                                    <h3>Vedic Yoga Practitioner</h3>
+                                    <hr>
+                                    <h3>Breathing & Meditation</h3>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mentor-cards">
+                            <div class="mentor-1">
+                                <img src="Images/Mentors/Julia_Roberts.jpg" class="mentor">
+                                <img src="Resources/MandalaPNG.png" class="mandala-name">
+
+                                <div class="name-content">
+                                    <img src="Resources/NameBG.png" class="name-bg">
+                                    <h1 class="mentor-name">Julia Roberts</h1>
+                                </div>
+
+                                <div class="mentor-text-box">
+                                    <h3>Hollywood Actress</h3>
+                                    <hr>
+                                    <h3>Golden Globe Awards</h3>
+                                    <hr>
+                                    <h3>Academy Awards</h3>
+                                    <hr>
+                                    <h3>British Film Academy Awards </h3>
+                                    <hr>
+                                    <h3>Vedic Yoga Practitioner</h3>
+                                    <hr>
+                                    <h3>Eat, Pray, Love</h3>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section> <!-- Mentors Section | END -->
+
+<!-- Testimonials Section -->
+
+        <section class="testimonials-section">
+            <div class="testimonials-contents">
+                
+
+                <div class="up-title">
+                    <div class="up-title-content">
+                        <div class="testo-images">
+                            <img src="Images/Testimonials/Testimonials-3.jpg">
+                            <img src="Images/Testimonials/Testimonials-2.webp">
+                            <img src="Images/Testimonials/Testimonials-1.jpg">
+                            <img src="Images/Testimonials/Testimonials-4.png">
+                            <img src="Images/Testimonials/Testimonials-5.jpg">
+                            <i class='bx  bx-plus'></i> 
+                        </div>
+                        <div class="golden-shimmer-line"></div>
+                        <div class="text-container">
+                            <div class="heading-top">More than <span>50,000</span> happy <span>yogis</span> in our community!</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="testimonials-container">
+
+                    
+
+                    <div class="testimonial-card">
+
+                        <div class="testo-viewport">
+                            <div class="testo-track">
+
+                        <!-- Dakota Johnson | Person 1 -->
+                        <div class="testo-content">
+                            <div class="quote-container">
+                                <img src="Resources/QuoteBg-1.svg" class="quote-icon">
+                            </div>
+
+                            <div class="image-container">
+                                <img src="Images/Testimonials/Testimonials-1.jpg" class="person-1">
+                                <img src="Resources/QuoteBg-2.svg" class="image-bg">
+                            </div>
+
+                            
+                            <div class="text-content">
+                                <div class="h1-h2">
+                                    <h1>Dakota Johnson</h1>
+                                    <h2>American Actress</h2>
+                                </div>
+                                <div class="h3-p">
+                                    <h3>★★★★★</h3>
+                                </div>
+                                    <p>
+                                    “I meditate every day, twice a day. I do transcendental meditation and that’s been helping me a lot with anxiety. I learned so much from Niravn Community.” 
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Priya Dharma | Person 2 -->
+                        <div class="testo-content">
+                            <div class="quote-container">
+                                <img src="Resources/QuoteBg-1.svg" class="quote-icon">
+                            </div>
+
+                            <div class="image-container">
+                                <img src="Images/Testimonials/Testimonials-2.webp" class="person-1">
+                                <img src="Resources/QuoteBg-2.svg" class="image-bg">
+                            </div>
+                            <div class="text-content">
+                                <div class="h1-h2">
+                                    <h1>Priya Dharma</h1>
+                                    <h2>Web Developer</h2>
+                                </div>
+                                <div class="h3-p">
+                                    <h3>★★★★★</h3>
+                                </div>
+                                    <p>
+                                    “I am a mom working from home. My life was full of rush and stress and I was confused to find a way of balancing my life. I bow into gratitude I found here.”  
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Renuka Garvani | Person 3 -->
+                        <div class="testo-content">
+                            <div class="quote-container">
+                                <img src="Resources/QuoteBg-1.svg" class="quote-icon">
+                            </div>
+
+                            <div class="image-container">
+                                <img src="Images/Testimonials/Testimonials-3.jpg" class="person-1">
+                                <img src="Resources/QuoteBg-2.svg" class="image-bg">
+                            </div>
+                            <div class="text-content">
+                                <div class="h1-h2">
+                                    <h1>Renuka Garvani</h1>
+                                    <h2>Bestselling Author</h2>
+                                </div>
+                                <div class="h3-p">
+                                    <h3>★★★★★</h3>
+                                </div>
+                                    <p>
+                                    “Goodbye Self-Help Market and psychotherapists! I never knew, yoga was an ancient Vedic practice. I was confused which yoga actually worth practicing. Nirvan saved my life!” 
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Alan Watts | Person 4 -->
+                        <div class="testo-content">
+                            <div class="quote-container">
+                                <img src="Resources/QuoteBg-1.svg" class="quote-icon">
+                            </div>
+
+                            <div class="image-container">
+                                <img src="Images/Testimonials/Testimonials-4.png" class="person-1">
+                                <img src="Resources/QuoteBg-2.svg" class="image-bg">
+                            </div>
+                            <div class="text-content">
+                                <div class="h1-h2">
+                                    <h1>Alan Watts</h1>
+                                    <h2>Bestselling Author</h2>
+                                </div>
+                                <div class="h3-p">
+                                    <h3>★★★★★</h3>
+                                </div>
+                                    <p>
+                                    “I meditate every day, twice a day. I do transcendental meditation and that’s been helping me a lot with anxiety. I learned so much from Niravn Community.” 
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Krishna Das | Person 5 -->
+                        <div class="testo-content">
+                            <div class="quote-container">
+                                <img src="Resources/QuoteBg-1.svg" class="quote-icon">
+                            </div>
+
+                            <div class="image-container">
+                                <img src="Images/Testimonials/Testimonials-5.jpg" class="person-1">
+                                <img src="Resources/QuoteBg-2.svg" class="image-bg">
+                            </div>
+                            <div class="text-content">
+                                <div class="h1-h2">
+                                    <h1>Krishna Das</h1>
+                                    <h2>Vedic Singer | Vocalist</h2>
+                                </div>
+                                <div class="h3-p">
+                                    <h3>★★★★★</h3>
+                                </div>
+                                    <p>
+                                    “I meditate every day, twice a day. I do transcendental meditation and that’s been helping me a lot with anxiety. I learned so much from Niravn Community.” 
+                                </p>
+                            </div>
+                        </div>
+                            </div> <!-- /.testo-track -->
+                        </div> <!-- /.testo-viewport -->
+
+                        <button class="prev-btn testo-prev" aria-label="Previous testimonial"><i class='bx bx-chevron-left'></i></button>
+                        <button class="next-btn testo-next" aria-label="Next testimonial"><i class='bx bx-chevron-right'></i></button>
+
+                    </div>
+                </div>
+
+
+                 <div class="bottom-title">
+                    <div class="bottom-title-content">
+                        <div class="text-container">
+                            <div class="heading-bottom">You are in the best community!</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section> <!-- Testimonials Section | END -->
+
+
+
+
+    </main>
+
+<!-- Footer -->
+
+        <footer class="main-footer">
+            <!-- Footer Top (Newsletter) -->
+            <div class="footer-top">
+                <div class="footer-container">
+                    <div class="newsletter">
+                        <!-- Description with corner florals -->
+                        <div class="newsletter-desc-wrap">
+                            <div class="newsletter-desc">
+                                Subscribe to our newsletter and get the benefits of our new offers, new materials, latest posted articles, videos and most inspiringly our daily Vedic Quotes to enrich your inner wisdom.
+                            </div>
+                            <span class="corner-decor corner-tl" aria-hidden="true"></span>
+                            <span class="corner-decor corner-tr" aria-hidden="true"></span>
+                            <span class="corner-decor corner-bl" aria-hidden="true"></span>
+                            <span class="corner-decor corner-br" aria-hidden="true"></span>
+                        </div>
+
+                        <!-- Input Row: left text, email input, subscribe button -->
+                        <div class="newsletter-row">
+                            <div class="newsletter-left-text" aria-hidden="true">
+                                <div class="line">SUBSCRIBE TO OUR</div>
+                                <div class="line">NEWSLETTER</div>
+                            </div>
+
+                            <div class="newsletter-input-wrap">
+                                <input type="email" class="newsletter-input" placeholder="Enter your email address..." aria-label="Email address">
+                            </div>
+
+                            <div class="newsletter-actions">
+                                <button class="newsletter-btn" data-label="SUBSCRIBE" aria-label="Subscribe">
+                                    SUBSCRIBE
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Centered heading below input -->
+                        <h3 class="newsletter-heading" aria-live="polite">
+                            <span class="peace">WE SEND YOU PEACE,</span>
+                            <span class="not-spam"> NOT SPAM!</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Top (Newsletter) END -->
+
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-container">
+                    <div class="footer-grid">
+                        <!-- Brand Column -->
+                        <div class="footer-brand">
+                            <div class="footer-logo">
+                                <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN logo">
+                            </div>
+                            <p class="brand-description">AN ANCIENT PEACE TO THE MODERN WORLD</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class='bx bxl-facebook'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-twitter'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-youtube'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="footer-links">
+                            <h4 class="footer-heading">Quick Links</h4>
+                            <ul class="link-list">
+                                <li><a href="programs.html"><i class='bx bx-chevron-right'></i>Programs</a></li>
+                                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Library</a></li>
+                                <li><a href="blog.html"><i class='bx bx-chevron-right'></i>Blog</a></li>
+                                <li><a href="about.html"><i class='bx bx-chevron-right'></i>About Us</a></li>
+                                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Programs -->
+                        <div class="footer-links">
+                            <h4 class="footer-heading">Programs</h4>
+                            <ul class="link-list">
+                                <li><a href="programs.html#free-week"><i class='bx bx-chevron-right'></i>1-Week Free Trial</a></li>
+                                <li><a href="programs.html#4-week"><i class='bx bx-chevron-right'></i>4-Week Reset</a></li>
+                                <li><a href="programs.html#8-week"><i class='bx bx-chevron-right'></i>8-Week Transformation</a></li>
+                                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Resource Library</a></li>
+                                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Personal Mentoring</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact Info -->
+                        <div class="footer-contact">
+                            <h4 class="footer-heading">Get in Touch</h4>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class='bx bx-map'></i>
+                                    <span>Berlin, Germany</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class='bx bx-envelope'></i>
+                                    <a href="mailto:info@nirvanyoga.com">info@nirvanyoga.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <i class='bx bx-time'></i>
+                                    <span>Mon - Sat: 8AM - 6PM CET</span>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="footer-cta-btn">
+                                <span>Talk to a Mentor</span>
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-container">
+                    <div class="footer-bottom-content">
+                        <div class="copyright">
+                            <p>&copy; 2025 NIRVAN - Vedic Yoga. All rights reserved.</p>
+                        </div>
+                        <div class="footer-bottom-links">
+                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="terms.html">Terms of Service</a>
+                            <a href="impressum.html">Impressum</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> <!-- Footer | END -->
+
+<!-- Modal Overlays -->
+    <!-- Sign In Modal -->
+    <div id="signinModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Welcome Back</h2>
+                <span class="close" data-modal="signin">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="signinForm">
+                    <div class="input-group">
+                        <label for="signin-email">Email</label>
+                        <input type="email" id="signin-email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="signin-password">Password</label>
+                        <input type="password" id="signin-password" name="password" placeholder="Enter your password"
+                            required>
+                    </div>
+                    <div class="input-group checkbox-group">
+                        <input type="checkbox" id="remember-me" name="remember">
+                        <label for="remember-me">Remember me</label>
+                    </div>
+                    <button type="submit" class="modal-btn primary">Sign In</button>
+                    <div class="form-links">
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                        <span>Don't have an account? <a href="#" id="switchToSignup">Sign up</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<!-- Sign Up Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Start Your Journey</h2>
+                <span class="close" data-modal="signup">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="signupForm">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="signup-firstname">First Name</label>
+                            <input type="text" id="signup-firstname" name="firstname" placeholder="First name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="signup-lastname">Last Name</label>
+                            <input type="text" id="signup-lastname" name="lastname" placeholder="Last name" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="signup-email">Email</label>
+                        <input type="email" id="signup-email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" name="password" placeholder="Create a password"
+                            required>
+                    </div>
+                    <div class="input-group">
+                        <label for="signup-confirm-password">Confirm Password</label>
+                        <input type="password" id="signup-confirm-password" name="confirmPassword"
+                            placeholder="Confirm your password" required>
+                    </div>
+                    <div class="input-group checkbox-group">
+                        <input type="checkbox" id="accept-terms" name="terms" required>
+                        <label for="accept-terms">I agree to the <a href="terms.html" class="terms-link" target="_blank" rel="noopener noreferrer">Terms of Service</a> and
+                            <a href="privacy.html" class="privacy-link" target="_blank" rel="noopener noreferrer">Privacy Policy</a></label>
+                    </div>
+                    <button type="submit" class="modal-btn primary">Create Account</button>
+                    <div class="form-links">
+                        <span>Already have an account? <a href="#" id="switchToSignin">Sign in</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Forgot Password Modal -->
+    <div id="forgotModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Reset Your Password</h2>
+                <span class="close" data-modal="forgot">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="forgotForm">
+                    <div class="input-group">
+                        <label for="forgot-email">Email</label>
+                        <input type="email" id="forgot-email" name="email" placeholder="Enter your account email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="forgot-password">New Password</label>
+                        <input type="password" id="forgot-password" name="password" placeholder="Create a new password" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="forgot-confirm-password">Confirm New Password</label>
+                        <input type="password" id="forgot-confirm-password" name="confirmPassword" placeholder="Confirm your new password" required>
+                    </div>
+                    <button type="submit" class="modal-btn primary">Change Password</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Password Updated</h2>
+                <span class="close" data-modal="confirm">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="input-group" style="margin-bottom: 0;">
+                    <label style="text-transform:none; letter-spacing:0; font-weight:600; color: var(--primary-dark-blue-500);">Your password has been changed successfully.</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

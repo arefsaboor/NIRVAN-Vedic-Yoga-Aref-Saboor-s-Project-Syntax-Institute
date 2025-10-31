@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIRVAN - Vedic Yoga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/programs.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js" defer></script>
+    <script src="search.js" defer></script>
+
+</head>
+<body>
+
+<!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu' ></i>
+            <div class="nav-logo"><a href="index.html"><img src="Resources/Logo For Header Menu.png"></a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                        <img src="Resources/Logo For Header Menu.png">
+                        <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="li">
+                        <a href="programs.html" class="nav-link dropdown-link active">
+                            <span>Programs</span>
+                            <i class='bx bxs-chevron-down arrow programs-arrow'></i>
+                        </a>
+                        <ul class="programs-sub-menu sub-menu">
+                            <li><a href="programs.html#intro">Introduction</a></li>
+                            <li><a href="programs.html#8-week">8-Week Plan</a></li>
+                            <li><a href="programs.html#4-week">4-Week Plan</a></li>
+                            <li><a href="programs.html#free-week">1-Week Free</a></li>
+                        </ul>
+                    </li>
+                    <li class="li">
+                        <a href="library.html" class="nav-link dropdown-link">
+                            <span>Library</span>
+                            <i class='bx bxs-chevron-down arrow library-arrow'></i>
+                        </a>
+                        <ul class="library-sub-menu sub-menu">
+                            <li><a href="library.html#books-section">Books</a></li>
+                            <li><a href="library.html#sound-library-section">Sound Library</a></li>
+                            <li><a href="library.html#video-library-section">Video Library</a></li>
+                        </ul>
+                    </li>
+                    <li class="li"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="li"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="li"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile Footer -->
+                <div class="mobile-footer">
+                    <div class="footer-logo">
+                        <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN Logo">
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="link-row">
+                            <a href="about.html">About Us</a>
+                            <a href="programs.html">Programs</a>
+                        </div>
+                        <div class="link-row">
+                            <a href="library.html">Library</a>
+                            <a href="blog.html">Blog</a>
+                        </div>
+                        <div class="link-row">
+                            <a href="contact.html">Contact</a>
+                            <a href="#privacy">Privacy</a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" aria-label="YouTube"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                    
+                    <p class="copyright">&copy; 2025 NIRVAN - Vedic Yoga. All rights reserved.</p>
+                </div>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                    <input type="text" id="search-input" name="" value="" placeholder="Search..." autocomplete="off">
+                    <div class="search-dropdown" id="search-dropdown"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="programs-main">
+        <!-- Hero / Introduction -->
+        <section class="programs-hero" id="intro">
+            <img class="programs-hero-img" src="Images/Articles/4-Pranayama.jpg" alt="Yoga practice" />
+            <div class="programs-container">
+                <h1 class="programs-title">An Ancient Peace <br>To The Modern World</h1>
+                <p class="programs-subtitle">Choose a structured plan that fits your rhythm—from a free 1-week start to a focused 4-week reset or a deeper 8-week transformation. Breath-led movement. Steady progress. Real results.</p>
+                <div class="hero-ctas">
+                    <a class="btn btn-primary" href="#free-week" data-label="Start Free Week">Start Free Week</a>
+                    <a class="btn btn-outline" href="contact.html" data-label="Talk to a Mentor">Talk to a Mentor</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8-Week Plan -->
+        <section class="programs-section" id="8-week">
+            <div class="programs-container">
+                <div class="program-card">
+                    <img class="program-image" src="Images/Articles/7-The_Vedic_Life.jpg" alt="8-week program" />
+                    <div class="program-body">
+                        <div class="badge">2-Months Journey</div>
+                        <h2 class="section-title">8-Week Plan</h2>
+                        <p class="section-lead">Build lasting strength, mobility, and inner steadiness with a progressive breath-led practice blending asana, kriyas, and meditation.</p>
+                        <ul class="program-bullets">
+                            <li><i class='bx bx-check'></i> Progressive weekly curriculum with clear milestones</li>
+                            <li><i class='bx bx-check'></i> Breath-centric asana for posture and stability</li>
+                            <li><i class='bx bx-check'></i> Foundational kriyas and guided meditation</li>
+                            <li><i class='bx bx-check'></i> Mentor feedback and practice refinements</li>
+                        </ul>
+                        <div class="program-schedule">
+                            <span class="chip"><i class='bx bx-time-five'></i> 5x/week</span>
+                            <span class="chip"><i class='bx bx-hourglass'></i> 45–60 min</span>
+                            <span class="chip"><i class='bx bx-leaf'></i> Moderate</span>
+                        </div>
+                        <div class="program-actions">
+                            <a class="btn btn-primary" href="contact.html" data-label="Join 8-Week Plan">Join 8-Week Plan</a>
+                            <a class="btn btn-outline" href="#4-week" data-label="Compare with 4-Week">Compare with 4-Week</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4-Week Plan -->
+        <section class="programs-section" id="4-week">
+            <div class="programs-container">
+                <div class="program-card flip">
+                    <img class="program-image" src="Images/Articles/4-Pranayama.jpg" alt="4-week program" />
+                    <div class="program-body">
+                        <div class="badge">1-Months Journey</div>
+                        <h2 class="section-title">4-Week Plan</h2>
+                        <p class="section-lead">A focused reboot to restore rhythm and clarity. Learn fundamentals, establish consistency, and feel lighter in body and mind.</p>
+                        <ul class="program-bullets">
+                            <li><i class='bx bx-check'></i> Clean alignment and safe progressions</li>
+                            <li><i class='bx bx-check'></i> Breathwork for calm focus</li>
+                            <li><i class='bx bx-check'></i> Mobility + core stabilization</li>
+                            <li><i class='bx bx-check'></i> Habit-building weekly goals</li>
+                        </ul>
+                        <div class="program-schedule">
+                            <span class="chip"><i class='bx bx-time-five'></i> 4x/week</span>
+                            <span class="chip"><i class='bx bx-hourglass'></i> 35–45 min</span>
+                            <span class="chip"><i class='bx bx-leaf'></i> Light–Moderate</span>
+                        </div>
+                        <div class="program-actions">
+                            <a class="btn btn-primary" href="contact.html" data-label="Join 4-Week Plan">Join 4-Week Plan</a>
+                            <a class="btn btn-outline" href="#free-week" data-label="Try Free First">Try Free First</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1-Week Free Trial -->
+        <section class="programs-section" id="free-week">
+            <div class="programs-container">
+                <div class="program-card">
+                    <img class="program-image" src="Images/Articles/The_7_Chakras.jpg" alt="1-week free program" />
+                    <div class="program-body">
+                        <div class="badge badge-free">Free Trial</div>
+                        <h2 class="section-title">1-Week Free</h2>
+                        <p class="section-lead">Experience breath-led movement and mindful focus. Simple sessions to help you feel grounded, open, and motivated to continue.</p>
+                        <ul class="program-bullets">
+                            <li><i class='bx bx-check'></i> 7-day guided plan with daily prompts</li>
+                            <li><i class='bx bx-check'></i> Gentle sequences for all levels</li>
+                            <li><i class='bx bx-check'></i> Audio cues for breath and attention</li>
+                            <li><i class='bx bx-check'></i> No credit card required</li>
+                        </ul>
+                        <div class="program-schedule">
+                            <span class="chip"><i class='bx bx-time-five'></i> Daily</span>
+                            <span class="chip"><i class='bx bx-hourglass'></i> 20–30 min</span>
+                            <span class="chip"><i class='bx bx-leaf'></i> Gentle</span>
+                        </div>
+                        <div class="program-actions">
+                            <a class="btn btn-primary" href="contact.html?plan=free-week" data-label="Sign up free">Sign up free</a>
+                            <a class="btn btn-outline" href="#8-week" data-label="See Full Program">See Full Program</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="programs-cta">
+            <div class="programs-container cta-inner">
+                <h2>An Ancient Peace <br>To The Modern World</h2>
+                <p>Vedic Yoga. Vedic Wisdom. Vedic Life</p>
+                <div class="hero-ctas">
+                    <a class="btn btn-primary" href="contact.html?plan=free-week" data-label="Start Free Week">Start Free Week</a>
+                    <a class="btn btn-outline" href="about.html" data-label="About Nirvan">About Nirvan</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <footer class="main-footer">
+            <!-- Footer Top (Newsletter) -->
+            <div class="footer-top">
+                <div class="footer-container">
+                    <div class="newsletter">
+                        <!-- Description with corner florals -->
+                        <div class="newsletter-desc-wrap">
+                            <div class="newsletter-desc">
+                                Subscribe to our newsletter and get the benefits of our new offers, new materials, latest posted articles, videos and most inspiringly our daily Vedic Quotes to enrich your inner wisdom.
+                            </div>
+                            <span class="corner-decor corner-tl" aria-hidden="true"></span>
+                            <span class="corner-decor corner-tr" aria-hidden="true"></span>
+                            <span class="corner-decor corner-bl" aria-hidden="true"></span>
+                            <span class="corner-decor corner-br" aria-hidden="true"></span>
+                        </div>
+
+                        <!-- Input Row: left text, email input, subscribe button -->
+                        <div class="newsletter-row">
+                            <div class="newsletter-left-text" aria-hidden="true">
+                                <div class="line">SUBSCRIBE TO OUR</div>
+                                <div class="line">NEWSLETTER</div>
+                            </div>
+
+                            <div class="newsletter-input-wrap">
+                                <input type="email" class="newsletter-input" placeholder="Enter your email address..." aria-label="Email address">
+                            </div>
+
+                            <div class="newsletter-actions">
+                                <button class="newsletter-btn" data-label="SUBSCRIBE" aria-label="Subscribe">
+                                    SUBSCRIBE
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Centered heading below input -->
+                        <h3 class="newsletter-heading" aria-live="polite">
+                            <span class="peace">WE SEND YOU PEACE,</span>
+                            <span class="not-spam"> NOT SPAM!</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Top (Newsletter) END -->
+            
+            
+
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-container">
+                    <div class="footer-grid">
+                        <!-- Brand Column -->
+                        <div class="footer-brand">
+                            <div class="footer-logo">
+                                <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN logo">
+                            </div>
+                            <p class="brand-description">AN ANCIENT PEACE TO THE MODERN WORLD</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class='bx bxl-facebook'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-twitter'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-youtube'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="footer-links">
+                            <h4 class="footer-heading">Quick Links</h4>
+                            <ul class="link-list">
+                                <li><a href="programs.html"><i class='bx bx-chevron-right'></i>Programs</a></li>
+                                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Library</a></li>
+                                <li><a href="blog.html"><i class='bx bx-chevron-right'></i>Blog</a></li>
+                                <li><a href="about.html"><i class='bx bx-chevron-right'></i>About Us</a></li>
+                                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Programs -->
+                        <div class="footer-links">
+                            <h4 class="footer-heading">Programs</h4>
+                            <ul class="link-list">
+                                <li><a href="programs.html#free-week"><i class='bx bx-chevron-right'></i>1-Week Free Trial</a></li>
+                                <li><a href="programs.html#4-week"><i class='bx bx-chevron-right'></i>4-Week Reset</a></li>
+                                <li><a href="programs.html#8-week"><i class='bx bx-chevron-right'></i>8-Week Transformation</a></li>
+                                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Resource Library</a></li>
+                                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Personal Mentoring</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact Info -->
+                        <div class="footer-contact">
+                            <h4 class="footer-heading">Get in Touch</h4>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class='bx bx-map'></i>
+                                    <span>Berlin, Germany</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class='bx bx-envelope'></i>
+                                    <a href="mailto:info@nirvanyoga.com">info@nirvanyoga.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <i class='bx bx-time'></i>
+                                    <span>Mon - Sat: 8AM - 6PM CET</span>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="footer-cta-btn">
+                                <span>Talk to a Mentor</span>
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-container">
+                    <div class="footer-bottom-content">
+                        <div class="copyright">
+                            <p>&copy; 2025 NIRVAN - Vedic Yoga. All rights reserved.</p>
+                        </div>
+                        <div class="footer-bottom-links">
+                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="terms.html">Terms of Service</a>
+                            <a href="impressum.html">Impressum</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,465 @@
+.programs-main { 
+    padding-top: 80px;
+}
+
+.programs-hero { 
+    position: relative;
+    height: 60vh;
+    min-height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.programs-hero-img { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    mask-image: linear-gradient(to bottom, #012c39 0%, #012c39 0%, #00000000 85%);
+    z-index: -1;
+}
+
+.programs-container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 24px; 
+    position: relative;
+    text-align: center;
+}
+
+.programs-hero .programs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Anchor hero content to bottom with a tiny 3px gap */
+    justify-content: flex-end;
+    height: 100%;
+    /* Ensure hero content sits above the background image */
+    z-index: 1;
+    padding-bottom: 50px;
+}
+
+.programs-title { 
+    color: var(--yellow-600);
+    font-size: var(--fs-3xl); 
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    max-width: 800px;
+}
+
+.programs-subtitle { 
+    color: #ffffff;
+    font-size: var(--fs-base); 
+    line-height: 1.6;
+    max-width: 600px; 
+    margin-bottom: 32px;
+    font-weight: 100;
+}
+
+.programs-hero .hero-ctas { 
+    margin-top: 0px; 
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programs-hero-media {
+    display: none;
+}
+
+.programs-section { 
+    padding: 60px 0; 
+    background: linear-gradient(180deg, rgba(1,44,57,0.10), rgba(1,44,57,0));
+}
+
+.program-card { 
+    display: grid; 
+    grid-template-columns: 520px 1fr; 
+    gap: 30px; 
+    background: rgba(1,44,57,0.06); 
+    border: 1px solid rgba(1,44,57,0.15); 
+    border-radius: 16px; 
+    padding: 30px; 
+    box-shadow: 0 10px 28px rgba(0,0,0,0.14);
+    transition: transform .2s ease, box-shadow .2s ease;
+    width: 100%; /* ensure all cards span the full container width */
+    box-sizing: border-box;
+    /* Ensure all text inside cards is left-aligned */
+    text-align: left;
+}
+
+.program-card:hover { 
+    transform: translateY(-2px); 
+    box-shadow: 0 14px 36px rgba(0,0,0,0.16);
+}
+
+.program-card.flip { 
+    grid-template-columns: 1fr 520px; 
+}
+
+.program-image { 
+    width: 100%; /* uniform image width within fixed grid track */
+    height: 400px; 
+    object-fit: cover; 
+    object-position: center; /* keep framing consistent across cards */
+    border-radius: 12px; 
+    display: block;
+    max-width: 100%;
+}
+
+.program-body { 
+    display: grid; 
+    align-content: start; 
+    gap: 12px;
+}
+
+/* Normal text inside cards should be light and left-aligned */
+.program-card p,
+.program-card li,
+.program-card .section-lead {
+    font-weight: 100;
+    text-align: left;
+}
+
+.section-title {
+    color: #ffd24d;
+    font-size: var(--fs-2xl);
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.section-lead {
+    color: var(--yellow-100);
+    font-size: var(--fs-base);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.badge { 
+    display: inline-block;
+    text-align: center;
+    background: #012c39; 
+    color: var(--yellow-100); 
+    border: 1px solid rgba(255,255,255,0.2); 
+    border-radius: 999px; 
+    padding: 6px 10px; 
+    font-size: var(--fs-xxs); 
+    letter-spacing: .3px; 
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.badge-free { 
+    background: #00EBC7; 
+    color: #012c39; 
+    border-color: transparent;
+}
+
+.program-bullets { 
+    list-style: none; 
+    display: grid; 
+    gap: 8px; 
+    font-size: var(--fs-xs); 
+    color: var(--yellow-100); 
+    margin-top: 4px;
+}
+
+.program-bullets i { 
+    color: #00EBC7; 
+    margin-right: 6px;
+}
+
+.program-schedule { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 8px; 
+    margin-top: 4px;
+}
+
+.chip { 
+    display: inline-flex; 
+    align-items: center; 
+    gap: 6px; 
+    background: #ffffff; 
+    color: #012c39; 
+    border: 1px solid rgba(1,44,57,0.18); 
+    border-radius: 999px; 
+    padding: 6px 10px; 
+    font-size: var(--fs-xxs); 
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.program-actions { 
+    display: flex; 
+    gap: 14px; 
+    margin-top: 6px; 
+    flex-wrap: wrap;
+    justify-content: center; /* center the two buttons horizontally below the text */
+    width: 100%;
+}
+
+/* Enhanced Button Styles for Programs Page */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: clamp(0.85rem, 1.6vw, 0.95rem);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+    min-width: 160px;
+}
+
+/* Programs page buttons should match the site's primary button system */
+.btn-primary,
+.btn-outline {
+    background: var(--green-300);
+    color: #012c39;
+    border: none;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* Swipe overlay like primary button (behind text) */
+.btn-primary::before,
+.btn-outline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-dark-blue-500), var(--primary-green-500));
+    border: 0.5px solid var(--primary-orange-500);
+    border-radius: 8px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.5s ease;
+    opacity: 0;
+    z-index: 0;
+}
+
+.btn-primary > *,
+.btn-outline > * {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-primary:hover::before,
+.btn-outline:hover::before {
+    transform: scaleX(1.5);
+    opacity: 1;
+}
+
+.btn-primary:hover,
+.btn-outline:hover {
+    /* Show same label via ::after overlay; hide original text color */
+    color: transparent;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Same-text overlay on hover (uses data-label attribute) */
+.btn-primary::after,
+.btn-outline::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primary-orange-500);
+    font-weight: 700;
+    font-size: inherit;
+    line-height: 1;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+}
+
+.btn-primary:hover::after,
+.btn-outline:hover::after {
+    opacity: 1;
+}
+
+.programs-hero .btn-primary,
+.programs-hero .btn-outline {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* Smooth anchor offset for fixed nav */
+:target::before { 
+    content: ""; 
+    display: block; 
+    height: 120px; 
+    margin-top: -120px; 
+    visibility: hidden; 
+}
+
+.programs-cta { 
+    background: linear-gradient(180deg, rgba(1,44,57,0.10), rgba(1,44,57,0)); 
+    padding: 60px;
+}
+
+.programs-cta .cta-inner { 
+    text-align: center;
+    gap: 40px;
+}
+
+/* Base layout for final CTA buttons */
+.programs-cta .hero-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.programs-cta .cta-inner h2 { 
+    color: #ffd24d; 
+    font-size: var(--fs-2xl); 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+}
+
+.programs-cta .cta-inner p { 
+    color: var(--yellow-100); 
+    font-size: var(--fs-sm); 
+    margin: 8px 0 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 1100px) {
+    .program-card { 
+        grid-template-columns: 420px 1fr; 
+        gap: 32px;
+        padding: 32px;
+    }
+    .program-card.flip { 
+        grid-template-columns: 1fr 420px; 
+    }
+    .program-image { 
+        height: 320px; 
+    }
+    .programs-container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 860px) {
+    .program-card, .program-card.flip { 
+        grid-template-columns: 1fr; 
+        gap: 24px;
+        padding: 24px;
+    }
+    .program-image { 
+        height: 280px; 
+        order: -1;
+    }
+    .programs-hero {
+        height: 60vh;
+        min-height: 400px;
+    }
+    .programs-title {
+        font-size: var(--fs-2xl);
+    }
+    .programs-section {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    nav .navbar .nav-links{
+        max-width: 100%;
+    }
+    
+    .programs-main {
+        padding-top: 70px;
+    }
+    
+    .programs-hero {
+        height: 50vh;
+        min-height: 350px;
+    }
+    
+    .programs-container {
+        padding: 16px;
+    }
+    
+    .programs-title {
+        font-size: var(--fs-xl);
+        margin-bottom: 16px;
+    }
+    
+    .programs-subtitle {
+        font-size: var(--fs-sm);
+        margin-bottom: 24px;
+    }
+    
+    .programs-hero .hero-ctas {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .program-card {
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    .program-image {
+        height: 200px;
+        border-radius: 12px;
+    }
+    
+    .section-title {
+        font-size: var(--fs-xl);
+    }
+    
+    .program-actions {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .programs-section {
+        padding: 40px 0;
+    }
+    
+    .programs-cta {
+        padding: 50px 0;
+        margin-top: 20px;
+    }
+    
+    .programs-cta .cta-inner h2 {
+        font-size: var(--fs-xl);
+        margin-bottom: 12px;
+    }
+    
+    .programs-cta .cta-inner p {
+        font-size: var(--fs-sm);
+        margin-bottom: 24px;
+    }
+    
+    .programs-cta .hero-ctas {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+}

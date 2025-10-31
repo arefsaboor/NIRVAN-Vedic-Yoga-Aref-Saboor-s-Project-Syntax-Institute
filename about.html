@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIRVAN - Vedic Yoga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js" defer></script>
+    <script src="search.js" defer></script>
+
+</head>
+<body>
+
+<!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu' ></i>
+            <div class="nav-logo"><a href="index.html"><img src="Resources/Logo For Header Menu.png"></a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                        <img src="Resources/Logo For Header Menu.png">
+                        <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li class="li">
+                        <a href="programs.html" class="nav-link dropdown-link">
+                            <span>Programs</span>
+                            <i class='bx bxs-chevron-down arrow programs-arrow'></i>
+                        </a>
+                        <ul class="programs-sub-menu sub-menu">
+                            <li><a href="programs.html#intro">Introduction</a></li>
+                            <li><a href="programs.html#8-week">8-Week Plan</a></li>
+                            <li><a href="programs.html#4-week">4-Week Plan</a></li>
+                            <li><a href="programs.html#free-week">1-Week Free</a></li>
+                        </ul>
+                    </li>
+                    <li class="li">
+                        <a href="library.html" class="nav-link dropdown-link">
+                            <span>Library</span>
+                            <i class='bx bxs-chevron-down arrow library-arrow'></i>
+                        </a>
+                        <ul class="library-sub-menu sub-menu">
+                            <li><a href="library.html#books-section">Books</a></li>
+                            <li><a href="library.html#sound-library-section">Sound Library</a></li>
+                            <li><a href="library.html#video-library-section">Video Library</a></li>
+                        </ul>
+                    </li>
+                    <li class="li"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="li"><a href="about.html" class="nav-link active">About</a></li>
+                    <li class="li"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile Footer -->
+                <div class="mobile-footer">
+                    <div class="footer-logo">
+                        <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN Logo">
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="link-row">
+                            <a href="about.html">About Us</a>
+                            <a href="programs.html">Programs</a>
+                        </div>
+                        <div class="link-row">
+                            <a href="library.html">Library</a>
+                            <a href="blog.html">Blog</a>
+                        </div>
+                        <div class="link-row">
+                            <a href="contact.html">Contact</a>
+                            <a href="#privacy">Privacy</a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                        <a href="#" aria-label="YouTube"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                    
+                    <p class="copyright">&copy; 2025 NIRVAN - Vedic Yoga. All rights reserved.</p>
+                </div>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                    <input type="text" id="search-input" name="" value="" placeholder="Search..." autocomplete="off">
+                    <div class="search-dropdown" id="search-dropdown"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+        <main class="about-main">
+            <!-- Hero Section -->
+            <section class="about-hero" id="about">
+                <img class="about-hero-img" src="Images/Programs/Programs-2.jpg" alt="About NIRVAN" />
+                <div class="about-container">
+                    <h1 class="about-title">An Ancient Peace <br>To The Modern World</h1>
+                    <p class="about-subtitle">We are a Vedic yoga school devoted to practical spirituality. Through disciplined practice, compassionate guidance, and a living tradition, we help you cultivate clarity, strength, and inner peace.</p>
+                    <div class="hero-ctas">
+                        <a class="btn btn-primary" href="programs.html" data-label="Explore Programs">Explore Programs</a>
+                        <a class="btn btn-outline" href="contact.html" data-label="Talk to a Mentor">Talk to a Mentor</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Hero Stats -->
+            <section class="about-stats">
+                <div class="about-container">
+                    <div class="hero-stats">
+                        <div class="stat"><div class="stat-number">10+ yrs</div><div class="stat-label">Teaching</div></div>
+                        <div class="stat"><div class="stat-number">50k+</div><div class="stat-label">Students</div></div>
+                        <div class="stat"><div class="stat-number">50+</div><div class="stat-label">Workshops</div></div>
+                        <div class="stat"><div class="stat-number">97%</div><div class="stat-label">Satisfaction</div></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mission -->
+            <section class="about-section about-mission">
+                <div class="about-container mission-grid">
+                    <div class="mission-copy">
+                        <h2 class="section-title">Our mission</h2>
+                        <p class="section-lead">To make the timeless science of yoga accessible and actionable—rooted in Vedic tradition, expressed through modern guidance—so you can live with steadiness, purpose, and joy.</p>
+                        <div class="mission-points">
+                            <div class="point"><i class='bx bx-leaf'></i><span>Tradition with integrity—no dilution, no dogma.</span></div>
+                            <div class="point"><i class='bx bx-dumbbell'></i><span>Practice that builds strength, mobility, and ease.</span></div>
+                            <div class="point"><i class='bx bx-brain'></i><span>Clarity of mind through breath, focus, and method.</span></div>
+                            <div class="point"><i class='bx bx-heart'></i><span>Compassionate mentorship at every step.</span></div>
+                        </div>
+                    </div>
+                    <div class="mission-card">
+                        <div class="mission-card-inner">
+                            <h3>What makes us different</h3>
+                            <ul>
+                                <li><i class='bx bx-check'></i> Structured paths: 1-week, 4-week, 8-week</li>
+                                <li><i class='bx bx-check'></i> Breath-led asana, kriyas, and meditation</li>
+                                <li><i class='bx bx-check'></i> Personal feedback and adjustments</li>
+                                <li><i class='bx bx-check'></i> Lifetime habits, not quick fixes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Values -->
+            <section class="about-section about-values">
+                <div class="about-container">
+                    <h2 class="section-title center">Our values</h2>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon"><i class='bx bx-book-open'></i></div>
+                            <h3>Wisdom</h3>
+                            <p>We honor source texts and living lineages, translating depth into daily practice.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon"><i class='bx bx-target-lock'></i></div>
+                            <h3>Discipline</h3>
+                            <p>Progress comes from rhythm. Small, consistent steps reshape mind and body.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon"><i class='bx bx-hand-heart'></i></div>
+                            <h3>Compassion</h3>
+                            <p>We meet you where you are—with patience, respect, and encouragement.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Approach / Timeline -->
+            <section class="about-section about-approach">
+                <div class="about-container">
+                    <h2 class="section-title center">A steady path, step by step</h2>
+                    <div class="timeline">
+                        <div class="step">
+                            <div class="dot">1</div>
+                            <div class="step-content">
+                                <div class="step-header">
+                                    <div class="step-icon"><i class='bx bx-user-check'></i></div>
+                                    <div class="step-body">
+                                        <h4>Foundation & Assessment</h4>
+                                    </div>
+                                </div>
+                                <p>We start with understanding your body, mind, and goals. Learn proper alignment, breathing basics, and establish a safe practice foundation.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="dot">2</div>
+                            <div class="step-content">
+                                <div class="step-header">
+                                    <div class="step-icon"><i class='bx bx-dumbbell'></i></div>
+                                    <div class="step-body">
+                                        <h4>Build Strength & Flexibility</h4>
+                                    </div>
+                                </div>
+                                <p>Develop physical capabilities through progressive asanas, breathwork, and mindful movement patterns that create stability and mobility.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="dot">3</div>
+                            <div class="step-content">
+                                <div class="step-header">
+                                    <div class="step-icon"><i class='bx bx-brain'></i></div>
+                                    <div class="step-body">
+                                        <h4>Deepen Mind-Body Connection</h4>
+                                    </div>
+                                </div>
+                                <p>Advance into meditation, pranayama techniques, and subtle energy work to cultivate inner awareness and mental clarity.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="dot">4</div>
+                            <div class="step-content">
+                                <div class="step-header">
+                                    <div class="step-icon"><i class='bx bx-crown'></i></div>
+                                    <div class="step-body">
+                                        <h4>Master Your Practice</h4>
+                                    </div>
+                                </div>
+                                <p>Integrate yoga philosophy into daily life, develop personal practice routines, and maintain lifelong growth with ongoing guidance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mentors Section -->
+            <section class="mentors-section">
+                <div class="mentors-contents">
+                    <div class="top-title">
+                        <div class="top-title-content">
+                            <div class="text-container">
+                                <div class="heading">OUR MENTORS</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mentors-container">
+                        <div class="mentor-cards-wrapper">
+                            <div class="mentor-cards">
+                                <div class="mentor-1">
+                                    <img src="Images/Mentors/Sadhguru.jpg" class="mentor">
+                                    <img src="Resources/MandalaPNG.png" class="mandala-name">
+
+                                    <div class="name-content">
+                                        <img src="Resources/NameBG.png" class="name-bg">
+                                        <h1 class="mentor-name">Sadhguru</h1>
+                                    </div>
+
+                                    <div class="mentor-text-box">
+                                        <h3>A Vedic Indian Guru</h3>
+                                        <hr>
+                                        <h3>Writer And Philosopher</h3>
+                                        <hr>
+                                        <h3>Founder of Isha Foundation</h3>
+                                        <hr>
+                                        <h3>New York Times Bestseller</h3>
+                                        <hr>
+                                        <h3>Padma Vibhushan Award</h3>
+                                        <hr>
+                                        <h3>Inner Engineering</h3>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mentor-cards">
+                                <div class="mentor-1">
+                                    <img src="Images/Mentors/Shi_Heng_Yi.png" class="mentor">
+                                    <img src="Resources/MandalaPNG.png" class="mandala-name">
+
+                                    <div class="name-content">
+                                        <img src="Resources/NameBG.png" class="name-bg">
+                                        <h1 class="mentor-name">Shi Heng Yi</h1>
+                                    </div>
+
+                                    <div class="mentor-text-box">
+                                        <h3>A Buddhist Monk</h3>
+                                        <hr>
+                                        <h3>Shaolin Temple Europe</h3>
+                                        <hr>
+                                        <h3>Buddhist Community DE</h3>
+                                        <hr>
+                                        <h3>Shaolin Kung Fu master</h3>
+                                        <hr>
+                                        <h3>Vedic Yoga Practitioner</h3>
+                                        <hr>
+                                        <h3>Breathing & Meditation</h3>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mentor-cards">
+                                <div class="mentor-1">
+                                    <img src="Images/Mentors/Julia_Roberts.jpg" class="mentor">
+                                    <img src="Resources/MandalaPNG.png" class="mandala-name">
+
+                                    <div class="name-content">
+                                        <img src="Resources/NameBG.png" class="name-bg">
+                                        <h1 class="mentor-name">Julia Roberts</h1>
+                                    </div>
+
+                                    <div class="mentor-text-box">
+                                        <h3>Hollywood Actress</h3>
+                                        <hr>
+                                        <h3>Golden Globe Awards</h3>
+                                        <hr>
+                                        <h3>Academy Awards</h3>
+                                        <hr>
+                                        <h3>British Film Academy Awards </h3>
+                                        <hr>
+                                        <h3>Vedic Yoga Practitioner</h3>
+                                        <hr>
+                                        <h3>Eat, Pray, Love</h3>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Impact band -->
+            <section class="about-impact">
+                <div class="about-container impact-band">
+                    <div class="stat"><div class="stat-number">80%</div><div class="stat-label">Report better sleep</div></div>
+                    <div class="stat"><div class="stat-number">70%</div><div class="stat-label">Reduced stress</div></div>
+                    <div class="stat"><div class="stat-number">60%</div><div class="stat-label">Improved posture</div></div>
+                    <div class="stat"><div class="stat-number">90%</div><div class="stat-label">Feel more present</div></div>
+                </div>
+            </section>
+
+            <!-- Final CTA -->
+            <section class="about-cta">
+                <div class="about-container cta-inner">
+                    <h2>Start your practice with us</h2>
+                    <p>Pick a program that fits your rhythm. We’ll guide you—step by step.</p>
+                    <div class="hero-ctas">
+                        <a class="btn btn-primary" href="programs.html" data-label="See Programs">See Programs</a>
+                        <a class="btn btn-outline" href="contact.html" data-label="Get in touch">Get in touch</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <!-- Footer Top (Newsletter) -->
+            <div class="footer-top">
+                <div class="footer-container">
+                    <div class="newsletter">
+                        <!-- Description with corner florals -->
+                        <div class="newsletter-desc-wrap">
+                            <div class="newsletter-desc">
+                                Subscribe to our newsletter and get the benefits of our new offers, new materials, latest posted articles, videos and most inspiringly our daily Vedic Quotes to enrich your inner wisdom.
+                            </div>
+                            <span class="corner-decor corner-tl" aria-hidden="true"></span>
+                            <span class="corner-decor corner-tr" aria-hidden="true"></span>
+                            <span class="corner-decor corner-bl" aria-hidden="true"></span>
+                            <span class="corner-decor corner-br" aria-hidden="true"></span>
+                        </div>
+
+                        <!-- Input Row: left text, email input, subscribe button -->
+                        <div class="newsletter-row">
+                            <div class="newsletter-left-text" aria-hidden="true">
+                                <div class="line">SUBSCRIBE TO OUR</div>
+                                <div class="line">NEWSLETTER</div>
+                            </div>
+
+                            <div class="newsletter-input-wrap">
+                                <input type="email" class="newsletter-input" placeholder="Enter your email address..." aria-label="Email address">
+                            </div>
+
+                            <div class="newsletter-actions">
+                                <button class="newsletter-btn" data-label="SUBSCRIBE" aria-label="Subscribe">
+                                    SUBSCRIBE
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Centered heading below input -->
+                        <h3 class="newsletter-heading" aria-live="polite">
+                            <span class="peace">WE SEND YOU PEACE,</span>
+                            <span class="not-spam"> NOT SPAM!</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Top (Newsletter) END -->
+            
+            
+
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-container">
+                    <div class="footer-grid">
+                        <!-- Brand Column -->
+                        <div class="footer-brand">
+                            <div class="footer-logo">
+                                <img src="Resources/Logo For Header Menu.svg" alt="NIRVAN logo">
+                            </div>
+                            <p class="brand-description">AN ANCIENT PEACE TO THE MODERN WORLD</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class='bx bxl-facebook'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-instagram'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-twitter'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-youtube'></i></a>
+                                <a href="#" class="social-link"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Quick Links -->
+                        <div class="footer-links">
+                            <h4 class="footer-heading">Quick Links</h4>
+                            <ul class="link-list">
+                                <li><a href="programs.html"><i class='bx bx-chevron-right'></i>Programs</a></li>
+                                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Library</a></li>
+                                <li><a href="blog.html"><i class='bx bx-chevron-right'></i>Blog</a></li>
+                                <li><a href="about.html"><i class='bx bx-chevron-right'></i>About Us</a></li>
+                                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Programs -->
+                        <div class="footer-links">
+                            <h4 class="footer-heading">Programs</h4>
+                            <ul class="link-list">
+                                <li><a href="programs.html#free-week"><i class='bx bx-chevron-right'></i>1-Week Free Trial</a></li>
+                                <li><a href="programs.html#4-week"><i class='bx bx-chevron-right'></i>4-Week Reset</a></li>
+                                <li><a href="programs.html#8-week"><i class='bx bx-chevron-right'></i>8-Week Transformation</a></li>
+                                <li><a href="library.html"><i class='bx bx-chevron-right'></i>Resource Library</a></li>
+                                <li><a href="contact.html"><i class='bx bx-chevron-right'></i>Personal Mentoring</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Contact Info -->
+                        <div class="footer-contact">
+                            <h4 class="footer-heading">Get in Touch</h4>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <i class='bx bx-map'></i>
+                                    <span>Berlin, Germany</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class='bx bx-envelope'></i>
+                                    <a href="mailto:info@nirvanyoga.com">info@nirvanyoga.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <i class='bx bx-time'></i>
+                                    <span>Mon - Sat: 8AM - 6PM CET</span>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="footer-cta-btn">
+                                <span>Talk to a Mentor</span>
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-container">
+                    <div class="footer-bottom-content">
+                        <div class="copyright">
+                            <p>&copy; 2025 NIRVAN - Vedic Yoga. All rights reserved.</p>
+                        </div>
+                        <div class="footer-bottom-links">
+                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="terms.html">Terms of Service</a>
+                            <a href="impressum.html">Impressum</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
